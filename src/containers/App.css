@@ -1,0 +1,161 @@
+
+
+/* navbar style */
+.person-content {
+  display: block;
+  color: White;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.person-picture {
+  margin: 10px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.person-title-name {
+  font-size: 22px;
+  font-weight: 550;
+  margin: 0;
+}
+
+.person-subtitle-job-title {
+  font-size: 16px;
+  font-weight: 250;
+  margin: 0;
+}
+
+.site-nav-social {
+  color: white;
+  padding-left: 25px;
+}
+
+.pages {
+  list-style-type: none !important;
+  color: white !important;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+}
+
+.list {
+  padding-bottom: 10px;
+}
+
+.site-nav-main {
+  display: block;
+  position: static;
+  text-align: left;
+}
+
+.site-nav-parent {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 25%;
+  min-width: 250px;
+  background:
+     linear-gradient(
+       rgba(59, 146, 117, 0.90),
+       rgba(56, 161, 126,0.90)
+     ),
+     url(../images/coding.png);
+  text-transform: uppercase;
+}
+
+.site-nav-pages {
+  padding-top: 20px;
+}
+
+.block-social {
+  font-size: 11px;
+  font-weight: 300;
+  margin: 15px;
+}
+
+.contacts {
+  display: block;
+  position: absolute;
+  margin-left: 10px;
+}
+
+.contact-icons {
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+  filter: grayscale(100%)
+}
+
+/* page content default */
+h1 {
+  padding-left: 30px;
+}
+h2 {
+  padding-left: 30px;
+  color: white;
+}
+
+h3 {
+  padding-left: 30px;
+}
+
+h4 {
+  padding-left: 30px;
+  text-decoration: 2px underline rgb(56, 161, 126);
+}
+
+h5 {
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+
+p {
+  padding-left: 30px;
+}
+
+.site-main {
+  top: 0;
+  left:25%;
+  width:75%;
+  height:100%;
+  position: absolute;
+  /* padding-top: 30px; */
+}
+
+.site-main-home {
+  top: 0;
+  left:25%;
+  width:75%;
+  height:100%;
+  position: absolute;
+}
+
+.site-main-home::after {
+  content: "";
+  top: 0;
+  left:25%;
+  width:75%;
+  height:100%;
+  position: fixed;
+  padding-top: 90px;
+  padding-left:30px;
+  background:
+    url(../images/electrical.jpg) center;
+    background-size: cover;
+    filter: grayscale(100%) opacity(0.10);
+}
+
+.page-title {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  padding-top: 5px;
+  background-color: rgb(56, 161, 126);
+}

@@ -2,7 +2,7 @@ const path = require('path'); //helps manipulate file paths
 const HtmlWebpackPlugin = require('html-webpack-plugin'); //brings in the plugin
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/index.jsx',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'portfolio_bundle.js'
@@ -10,11 +10,23 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.jsx$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader'
-        }
+        loader: 'babel-loader',
+        options: {
+          presets: ["@babel/preset-env",
+          "@babel/preset-react"]
+        },
+      },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader']
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: [
+          'file-loader',
+        ],
       }
     ]
   },
