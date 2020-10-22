@@ -1,10 +1,10 @@
 const path = require('path'); //helps manipulate file paths
 const HtmlWebpackPlugin = require('html-webpack-plugin'); //brings in the plugin
 
-modules.exports = {
+module.exports = {
   entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, '/dist'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'portfolio_bundle.js'
   },
   module: {
@@ -22,5 +22,8 @@ modules.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html'
     })
-  ]
+  ],
+  resolve: {
+    extensions: [".wasm", ".ts", ".tsx", ".mjs", ".cjs", ".js", ".json"],
+  }
 };
