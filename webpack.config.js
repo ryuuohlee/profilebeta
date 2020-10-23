@@ -5,6 +5,7 @@ module.exports = {
   entry: './src/index.jsx',
   output: {
     path: path.resolve(__dirname, 'dist'),
+    publicPath: '/',
     filename: 'portfolio_bundle.js'
   },
   module: {
@@ -35,7 +36,10 @@ module.exports = {
       template: './src/index.html'
     })
   ],
+  devServer: {
+    historyApiFallback: true,
+  },
   resolve: {
     extensions: [".wasm", ".ts", ".tsx", ".mjs", ".cjs", ".js", ".json"],
-  }
+  },
 };
