@@ -3,8 +3,6 @@ import React from 'react';
 const Home = () => {
   return(
     <div>
-      <div className="site-main-home">
-      </div>
       <div className="site-main">
         <div className="welcome">
           <h1 className="site-main-welcome">Hello! I'm Jeff,</h1>

@@ -1,29 +1,29 @@
 import React, { Component } from 'react';
 import Person from '../components/Person.jsx';
-import './App.css';
+import './Navbar.css';
 import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
   render() {
     return(
       <aside className="site-nav-parent">
-        <Link to="/">
+        <Link to="/" style={{ textDecoration: 'none' }}>
           <Person />
         </Link>
         <ul className="pages">
-          <Link to="/offer">
+          <Link to="/offer" style={{ textDecoration: 'none' }}>
             <li className="list">My Offer</li>
           </Link>
-          <Link to="/portfolio">
+          <Link to="/portfolio" style={{ textDecoration: 'none' }}>
             <li className="list">Portfolio</li>
           </Link>
-          <Link to="/experience">
+          <Link to="/experience" style={{ textDecoration: 'none' }}>
             <li className="list">Experience</li>
           </Link>
-          <Link to="/education">
+          <Link to="/education" style={{ textDecoration: 'none' }}>
             <li className="list">Education</li>
           </Link>
-          <Link to="/cv">
+          <Link to="/cv" style={{ textDecoration: 'none' }}>
             <li className="list">My CV</li>
           </Link>
         </ul>

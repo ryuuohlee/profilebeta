@@ -12,6 +12,8 @@ const App = () => {
     <Router>
       <div className='home-parent'>
         <Navbar />
+        <div className="site-main-home">
+        </div>
         <Switch>
           <Route exact path="/">
             <Home />
