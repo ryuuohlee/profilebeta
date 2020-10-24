@@ -3,7 +3,7 @@ import './Cert.css';
 
 const Certificates = props => {
   let achievement=props.achievement.split(", ");
-  console.log(achievement)
+
   return(
     <li>{achievement[0]} | <a href={achievement[1]} target="_blank" className="credential"> Credential</a></li>
   )
