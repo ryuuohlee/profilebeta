@@ -6,8 +6,8 @@ class Experience extends React.Component {
   render() {
     return(
       <div className="site-main">
-        <div class="experience-overview">
-          <div class="page-title">
+        <div className="experience-overview">
+          <div className="page-title">
             <h2>My Experience</h2>
           </div>
         </div>

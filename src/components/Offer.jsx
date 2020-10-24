@@ -4,9 +4,9 @@ import './Offer.css';
 const Offer = () => {
   return (
     <div className="site-main">
-      <div className="page-title">
-        <h2>My Offer</h2>
-      </div>
+      <h2 className="page-title">
+        My Offer
+      </h2>
       <div className="offer-overview">
         <p className="offer-opening">An intelligent, hardworking full-stack software engineer ready to work.</p>
         <p>I have helped maintain, plan, test, develop, and launch multiple projects from scratch, working on both the <span className="offer-job-emphasis">back-end</span> and <span className="offer-job-emphasis">front-end</span> codebases.</p>

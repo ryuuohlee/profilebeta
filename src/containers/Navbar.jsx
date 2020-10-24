@@ -24,15 +24,15 @@ class Navbar extends Component {
             <li className="list">Education</li>
           </Link>
           <Link to="/cv" style={{ textDecoration: 'none' }}>
-            <li className="list">My CV</li>
+            <li className="list">CV</li>
           </Link>
         </ul>
-        <div class="site-nav-social">
-          <div class="block-social">Get in Touch</div>
-          <div class="contacts">
-            <a href="mailto:me@jeffreylee.tech" ><img src="../src/images/envelope.png" class="contact-icons"/></a>
-            <a href="https://www.linkedin.com/in/jeffrey-lee-01" ><img src="../src/images/linkedin-sign.png" class="contact-icons"/></a>
-            <a href="https://github.com/ryuuohlee" ><img src="../src/images/github-sign.png" class="contact-icons"/></a>
+        <div className="site-nav-social">
+          <div className="block-social">Get in Touch</div>
+          <div className="contacts">
+            <a href="mailto:me@jeffreylee.tech" ><img src="../src/images/envelope.png" className="contact-icons"/></a>
+            <a href="https://www.linkedin.com/in/jeffrey-lee-01" ><img src="../src/images/linkedin-sign.png" className="contact-icons"/></a>
+            <a href="https://github.com/ryuuohlee" ><img src="../src/images/github-signw.png" className="contact-icons"/></a>
           </div>
         </div>
       </aside>

@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar.jsx';
 import Home from '../components/Home.jsx';
 import Offer from '../components/Offer.jsx';
+import Portfolio from './Portfolio.jsx';
 import Experience from '../containers/Experience.jsx';
 import Education from './Education.jsx';
 import css from './App.css';
@@ -15,12 +16,9 @@ const App = () => {
         <div className="site-main-home">
         </div>
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/offer" component={Offer}>
-            <Offer />
-          </Route>
+          <Route exact path="/" component={Home} />
+          <Route path="/offer" component={Offer} />
+          <Route path="/portfolio" component={Portfolio} />
           <Route path="/experience" component={Experience} />
         </Switch>
       </div>
