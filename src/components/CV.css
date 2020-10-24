@@ -1,0 +1,10 @@
+.cv-container {
+  height: 100%;
+  padding-left: 30px;
+  /* padding-right: 30px; */
+  border: none;
+}
+
+iframe {
+  padding: 0px;
+}
