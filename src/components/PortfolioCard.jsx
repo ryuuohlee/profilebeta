@@ -1,18 +1,18 @@
 import React from 'react';
 
-const PortfolioCard = () => {
+const PortfolioCard = props => {
   return (
-    <div className="project-card">
+    <div className="project-card" key={props.project.id}>
       <div className="project-description">
-        <img className="project-image" src="../src/images/sikfan.png"/>
+        <img className="project-image" src={props.project.image}/>
         <h2 className="project-title">
-          Sik Fan la!
+          {props.project.title}
         </h2>
-        <p className="project-description">Restaurant searching application using Yelp API.</p>
+        <p className="project-description">{props.project.description}</p>
       </div>
       <div className="overlay">
-        <p><span className="project-technologies">Technologies:</span> ReactJS, HTML, CSS, YelpAPI</p>
-        <a href="https://github.com/ryuuohlee/sikFan">
+        <p><span className="project-technologies">Technologies: </span>{props.project.technologies.join(", ")}</p>
+        <a href={props.project.githublink}>
           <img src="../src/images/github-sign.png" className="project-github-icon" />
         </a>
       </div>
