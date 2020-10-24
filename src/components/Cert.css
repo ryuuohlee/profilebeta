@@ -1,0 +1,8 @@
+.credential {
+  text-decoration: none;
+  color: blue;
+}
+
+.credential:hover {
+  text-decoration: underline;
+}

@@ -1,10 +1,12 @@
 import React from 'react';
+import './Cert.css';
 
-const Achievements = props => {
-  console.log(props)
+const Certificates = props => {
+  let achievement=props.achievement.split(", ");
+  console.log(achievement)
   return(
-    <li>{props.achievement}</li>
+    <li>{achievement[0]} | <a href={achievement[1]} target="_blank" className="credential"> Credential</a></li>
   )
 }
 
-export default Achievements;
+export default Certificates;
