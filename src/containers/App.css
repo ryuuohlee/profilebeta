@@ -19,7 +19,7 @@
   position: absolute;
 }
 
-.site-main-home::after {
+.site-main-home:after {
   content: "";
   top: 0;
   left:25%;

@@ -2,18 +2,21 @@
 .offer-overview {
   margin-left: 30px;
   margin-right: 30px;
-  margin-top: -10px;
+  margin-top: -20px;
   padding-top: 10px;
+  padding-left: 10px;
   background-color: white;
 }
 
 .offer-title {
+  align-items: center;
   color : rgb(56, 161, 126);
 }
 
 .offer-title-icon {
   width: 1em;
-  margin-right: 10px;
+  margin-bottom: -3px;
+  margin-right: 5px;
 }
 
 .offer-opening {

@@ -7,8 +7,8 @@ const Home = () => {
       <div className="site-main">
         <div className="welcome">
           <h1 className="site-main-welcome">Hello! I'm Jeff,</h1>
-              <h1 className="site-main-welcome-info"> a full-stack software engineer and I enjoy to <span className="welcome-highlight">make things</span> that <span className="welcome-difference">make a difference!</span>
-          </h1>
+          <p className="site-main-welcome-info"> a full-stack software engineer and I enjoy to <span className="welcome-highlight">make things</span> that <span className="welcome-difference">make a difference!</span>
+          </p>
         </div>
         <h2 className="page-title">
           About
