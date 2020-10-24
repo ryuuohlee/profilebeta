@@ -1,4 +1,5 @@
 import React from 'react';
+import './Home.css';
 
 const Home = () => {
   return(
@@ -9,10 +10,10 @@ const Home = () => {
               <h1 className="site-main-welcome-info"> a full-stack software engineer and I enjoy to <span className="welcome-highlight">make things</span> that <span className="welcome-difference">make a difference!</span>
           </h1>
         </div>
+        <h2 className="page-title">
+          About
+        </h2>
         <div className="about">
-          <div className="page-title">
-            <h2 className="about-header">About</h2>
-          </div>
           <div className="about-mission">
             <h3 className="about-mission-statement">Thought-driven full-stack engineer with a passion for collaboration, problem solving, and thoughtful UI design.</h3>
           </div>

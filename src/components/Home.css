@@ -1,0 +1,45 @@
+.welcome {
+  padding-left: 30px;
+  width: 800px;
+}
+
+.site-main-welcome {
+  position: relative;
+  font-size: 3.5em;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.site-main-welcome-info {
+  position: relative;
+  font-size: 2.5em;
+  font-weight: 300;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.welcome-highlight {
+  position: relative;
+  color: black;
+  padding-top: 5px;
+  background-color: rgb(56, 161, 126) !important;
+}
+
+.welcome-difference {
+  color: black;
+  border-bottom: 5px solid rgb(56, 161, 126) !important;
+  position: relative;
+}
+
+.about {
+  position: relative;
+  margin: 30px;
+}
+
+.about-mission {
+  padding-top: 5px;
+  border-left: 5px solid rgb(56, 161, 126);
+  background-color: white;
+}
+
+.about-history {
+  font-weight: 600;
+}
