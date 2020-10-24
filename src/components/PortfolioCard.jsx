@@ -2,7 +2,7 @@ import React from 'react';
 
 const PortfolioCard = props => {
   return (
-    <div className="project-card" key={props.project.id}>
+    <div className="project-card">
       <div className="project-description">
         <img className="project-image" src={props.project.image}/>
         <h2 className="project-title">
