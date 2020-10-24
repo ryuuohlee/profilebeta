@@ -33,9 +33,9 @@ class Navbar extends Component {
         <div className="site-nav-social">
           <div className="block-social">Get in Touch</div>
           <div className="contacts">
-            <a href="mailto:me@jeffreylee.tech" ><img src="../src/images/envelope.png" className="contact-icons"/></a>
-            <a href="https://www.linkedin.com/in/jeffrey-lee-01" ><img src="../src/images/linkedin-sign.png" className="contact-icons"/></a>
-            <a href="https://github.com/ryuuohlee" ><img src="../src/images/github-signw.png" className="contact-icons"/></a>
+            <a href="mailto:me@jeffreylee.tech" target="_blank"><img src="../src/images/envelope.png" className="contact-icons"/></a>
+            <a href="https://www.linkedin.com/in/jeffrey-lee-01" target="_blank"><img src="../src/images/linkedin-sign.png" className="contact-icons"/></a>
+            <a href="https://github.com/ryuuohlee" target="_blank"><img src="../src/images/github-signw.png" className="contact-icons"/></a>
           </div>
         </div>
       </aside>
