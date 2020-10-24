@@ -10,23 +10,25 @@ class Navbar extends Component {
         <Link to="/" style={{ textDecoration: 'none' }}>
           <Person />
         </Link>
-        <ul className="pages">
-          <Link to="/offer" style={{ textDecoration: 'none' }}>
-            <li className="list">My Offer</li>
-          </Link>
-          <Link to="/portfolio" style={{ textDecoration: 'none' }}>
-            <li className="list">Portfolio</li>
-          </Link>
-          <Link to="/experience" style={{ textDecoration: 'none' }}>
-            <li className="list">Experience</li>
-          </Link>
-          <Link to="/education" style={{ textDecoration: 'none' }}>
-            <li className="list">Education</li>
-          </Link>
-          <Link to="/cv" style={{ textDecoration: 'none' }}>
-            <li className="list">CV</li>
-          </Link>
-        </ul>
+        <nav>
+          <ul className="pages">
+            <Link to="/offer" style={{ textDecoration: 'none' }}>
+              <li className="list">Offer</li>
+            </Link>
+            <Link to="/portfolio" style={{ textDecoration: 'none' }}>
+              <li className="list">Portfolio</li>
+            </Link>
+            <Link to="/experience" style={{ textDecoration: 'none' }}>
+              <li className="list">Experience</li>
+            </Link>
+            <Link to="/education" style={{ textDecoration: 'none' }}>
+              <li className="list">Education</li>
+            </Link>
+            <Link to="/cv" style={{ textDecoration: 'none' }}>
+              <li className="list">CV</li>
+            </Link>
+          </ul>
+        </nav>
         <div className="site-nav-social">
           <div className="block-social">Get in Touch</div>
           <div className="contacts">

@@ -1,7 +1,7 @@
 import React from 'react';
 import Achievements from './Achievements.jsx';
 
-const ExpCard = props => {
+const EduCard = props => {
   return(
       <div className="experience-container">
         <div className="experience-title-company">
@@ -23,4 +23,4 @@ const ExpCard = props => {
   )
 }
 
-export default ExpCard;
+export default EduCard;

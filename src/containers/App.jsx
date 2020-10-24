@@ -20,6 +20,7 @@ const App = () => {
           <Route path="/offer" component={Offer} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/experience" component={Experience} />
+          <Route path="/education" component={Education} />
         </Switch>
       </div>
     </Router>

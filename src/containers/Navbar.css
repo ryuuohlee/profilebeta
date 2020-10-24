@@ -33,18 +33,19 @@
 }
 
 .pages {
+  margin-top: 50px;
   list-style-type: none !important;
-  color: white !important;
-}
-
-.links {
-  color: white;
 }
 
 .list {
   padding-bottom: 10px;
   text-decoration: none;
   color: white;
+  transition: all .2s ease-in-out !important;
+}
+
+.list:hover {
+  text-decoration: underline;
 }
 
 .site-nav-main {

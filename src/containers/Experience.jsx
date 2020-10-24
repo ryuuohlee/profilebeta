@@ -30,7 +30,6 @@ class Experience extends React.Component {
             </div>
             <div className="experience-details">
               <div className="experience-details-description">{this.state.jobs[0].description}</div>
-              <br></br>
               <div className="experience-details-achievements">
                   <ul>
                     {this.state.jobs[0].achievements.map(achievement => <Achievements achievement={achievement} key={achievement}/>)}
