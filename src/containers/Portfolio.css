@@ -17,6 +17,7 @@
   overflow: hidden;
   box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
   margin: 10px;
+  transition: all .2s ease-in-out;
 }
 
 .project-card .overlay {
@@ -34,7 +35,11 @@
 
 .project-card:hover .overlay {
   top: 0%;
-  transition: all .2s ease-in-out;
+  /* transition: all .2s ease-in-out; */
+}
+
+.project-card:hover {
+  transform: scale(1.1);
 }
 
 .project-image {
