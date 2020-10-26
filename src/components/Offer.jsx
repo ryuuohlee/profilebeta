@@ -53,7 +53,7 @@ const Offer = () => {
           </p>
         </div>
         <div className="offer-contact">
-          <p>If you feel that I am a good fit for your team, please feel free to contact me. I'll respond and promptly as possible.</p>
+          <p>If you feel that I am a good fit for your team, please feel free to contact me. I'll respond as promptly as possible.</p>
         </div>
       </div>
     </div>
