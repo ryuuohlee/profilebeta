@@ -5,8 +5,10 @@ export const projects = [
     description: 'Basic app that has a dummy list of contacts and their Robot Avatars.',
     image: '../src/images/robofriend.png',
     technologies: ['ReactJS', 'HTML', 'CSS'],
+    deployed: 'GitHub Pages',
     job: 'Software Engineer',
-    githublink: 'https://github.com/ryuuohlee/robofriends'
+    githublink: 'https://github.com/ryuuohlee/robofriends',
+    weblink: 'https://jeffreylee.tech/robofriends'
   },
   {
     id: 2,
@@ -14,8 +16,10 @@ export const projects = [
     description: 'Create custom Spotify playlist using Spotify API.',
     image: '../src/images/boombox.jpg',
     technologies: ['ReactJS', 'HTML', 'CSS', 'SpotifyAPI'],
+    deployed: 'GitHub Pages',
     job: 'Software Engineer',
-    githublink: 'https://github.com/ryuuohlee/bringTheBoom'
+    githublink: 'https://github.com/ryuuohlee/bringTheBoom',
+    weblink: 'https://jeffreylee.tech/bringTheBoom'
   },
   {
     id: 3,
@@ -23,8 +27,10 @@ export const projects = [
     description: 'Restaurant searching application using Yelp API',
     image: '../src/images/sikfan.png',
     technologies: ['ReactJS', 'HTML', 'CSS', 'YelpAPI'],
+    deployed: 'GitHub Pages',
     job: 'Software Engineer',
-    githublink: 'https://github.com/ryuuohlee/sikFan'
+    githublink: 'https://github.com/ryuuohlee/sikFan',
+    weblink: 'https://jeffreylee.tech/sikFan'
   },
   {
     id: 4,
@@ -32,8 +38,10 @@ export const projects = [
     description: 'eCommerce web application item details component.',
     image: '../src/images/couch.jpg',
     technologies: ['ReactJS', 'HTML', 'CSS', 'Node.JS', 'ExpressJS', 'MySQL'],
+    deployed: 'N/A',
     job: 'Software Engineer',
-    githublink: 'https://github.com/ryuuohlee/ryuuohlee-furniture-app'
+    githublink: 'https://github.com/ryuuohlee/ryuuohlee-furniture-app',
+    weblink: 'N/A'
   },
   {
     id: 5,
@@ -42,7 +50,8 @@ export const projects = [
     image: '../src/images/movieticket.jpg',
     technologies: ['ReactJS', 'HTML', 'CSS', 'Node.JS', 'ExpressJS', 'CassandraDB'],
     job: 'Software Engineer',
-    githublink: 'https://github.com/ryuuohlee/ryuuohlee-movie-preview'
+    githublink: 'https://github.com/ryuuohlee/ryuuohlee-movie-preview',
+    weblink: 'N/A'
   },
   {
     id: 6,
@@ -50,6 +59,9 @@ export const projects = [
     description: 'Several coding projects for Arduino that involve electrical and motor controls.',
     image: '../src/images/arduino.jpg',
     technologies: ['C++', 'Arduino Libraries'],
+    deployed: 'N/A',
     job: 'Software Engineer',
-    githublink: 'https://github.com/ryuuohlee/Arduino-Projects'
-  }]
+    githublink: 'https://github.com/ryuuohlee/Arduino-Projects',
+    weblink: 'N/A'
+  }
+]
