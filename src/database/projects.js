@@ -49,6 +49,7 @@ export const projects = [
     description: 'Designed back-end of movie review web application.',
     image: '../src/images/movieticket.jpg',
     technologies: ['ReactJS', 'HTML', 'CSS', 'Node.JS', 'ExpressJS', 'CassandraDB'],
+    deployed: 'N/A',
     job: 'Software Engineer',
     githublink: 'https://github.com/ryuuohlee/ryuuohlee-movie-preview',
     weblink: 'N/A'

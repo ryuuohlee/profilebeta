@@ -23,6 +23,7 @@
 .project-card .overlay {
   padding-top: 15px;
   padding-left: 10px;
+  padding-right: 10px;
   text-align: left;
   background: white;
   top: 100%;
@@ -63,7 +64,8 @@
   font-weight: 1000;
 }
 
-.project-github-icon {
+.project-icon {
+  margin: 3px;
   width: 40px;
   height: 40px;
 }

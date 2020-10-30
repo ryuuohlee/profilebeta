@@ -2,6 +2,7 @@ import React from 'react';
 import PortfolioCard from './PortfolioCard.jsx';
 
 const PortfolioCardList = props => {
+  console.log(props)
   return(
     <div className='project-list'>
 
