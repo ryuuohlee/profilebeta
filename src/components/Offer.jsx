@@ -13,9 +13,9 @@ const Offer = () => {
         <p>I can help you with the entirety of your project:
           <div className="offer-list">
             <ul>
-              <li>Data structure of backend</li>
+              <li>Data structure of back-end</li>
               <li>Authenticating good UI/UX design</li>
-              <li>Back-End and Front-End developement.</li>
+              <li>Back-End and Front-End development.</li>
               <li>Estimating tasks</li>
               <li>Developing, leading, launching, and monitoring the project.</li>
             </ul>
@@ -24,7 +24,7 @@ const Offer = () => {
         <div className="offer-frontend">
           <h3 className="offer-title"><img src="../src/images/font-selection-editor.png" className="offer-title-icon"/>Front-End Engineering</h3>
           <p><span className="offer-opening">I specialize in web applications written in <span className="offer-skill">React</span></span>. Recently started working with <span className="offer-skill">Angular</span> and <span className="offer-skill">Redux</span> to broaden my skill set. </p>
-          <p>My current skill set for front-end developement includes:
+          <p>My current skill set for front-end development includes:
             <div className="offer-list">
               <ul>
                 <li>Creating responsive React apps for the modern day variety of different platforms. </li>
@@ -43,8 +43,8 @@ const Offer = () => {
           <p>From the back-end I can provide:
             <div className="offer-list">
               <ul>
-                <li>Develop backends using NodeJS and ExpressJS.</li>
-                <li>Split the backend into separate microservices.</li>
+                <li>Develop back-ends using NodeJS and ExpressJS.</li>
+                <li>Split the back-end into separate microservices.</li>
                 <li>Use different types of databases (MySQL, PostgreSQL, MongoDB, CassandraDB).</li>
                 <li>Incorporate API's, cloud servers, and asynchronous workers.</li>
                 <li>Write unit and end-to-end tests.</li>
