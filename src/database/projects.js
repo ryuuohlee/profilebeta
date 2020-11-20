@@ -57,7 +57,7 @@ export const projects = [
   {
     id: 6,
     title: 'Quote Generator',
-    description: 'Basic app that uses API calls to a free quotes API.',
+    description: 'Basic app that uses async/await to call a free quotes API.',
     image: '../src/images/quote-left.png',
     technologies: ['JavaScript', 'HTML', 'CSS'],
     deployed: 'GitHub Pages',
