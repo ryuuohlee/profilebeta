@@ -1,8 +1,8 @@
 import React from 'react';
 // import EduCard from '../components/EduCard.jsx';
-import CertList from '../components/CertList.jsx';
-import Achievements from '../components/Achievements.jsx';
-import Certificates from '../components/Certificates.jsx';
+import CertList from '../components/Education/Certification/CertList.jsx';
+import Achievements from '../components/Education/Achievements/Achievements.jsx';
+import Certificates from '../components/Education/Certification/Certificates.jsx';
 import './Experience.css';
 import { schools,certifications } from '../database/education.js'
 

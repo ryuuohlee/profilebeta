@@ -1,11 +1,11 @@
 import React from 'react';
 import Navbar from './Navbar.jsx';
-import Home from '../components/Home.jsx';
-import Offer from '../components/Offer.jsx';
+import Home from '../components/Home/Home.jsx';
+import Offer from '../components/Offer/Offer.jsx';
 import Portfolio from './Portfolio.jsx';
 import Experience from '../containers/Experience.jsx';
 import Education from './Education.jsx';
-import CV from '../components/CV.jsx';
+import CV from '../components/CV/CV.jsx';
 import css from './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 

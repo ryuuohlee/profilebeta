@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Person from '../components/Person.jsx';
-import CV from '../components/CV.jsx';
+import Person from '../components/Home/Person.jsx';
+import CV from '../components/CV/CV.jsx';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 

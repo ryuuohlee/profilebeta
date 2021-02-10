@@ -1,8 +1,8 @@
 import React from 'react';
-import ExpCard from '../components/ExpCard.jsx';
-import WorkList from '../components/WorkList.jsx';
-import ExpList from '../components/ExpList.jsx';
-import Achievements from '../components/Achievements.jsx';
+import ExpCard from '../components/Experience/ExpCard.jsx';
+import WorkList from '../components/Experience/WorkList.jsx';
+import ExpList from '../components/Experience/ExpList.jsx';
+import Achievements from '../components/Education/Achievements/Achievements.jsx';
 import './Experience.css';
 import { jobs } from '../database/jobs.js';
 

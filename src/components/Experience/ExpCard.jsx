@@ -1,5 +1,5 @@
 import React from 'react';
-import Achievements from './Achievements.jsx';
+import Achievements from '../Education/Achievements/Achievements.jsx';
 
 const ExpCard = props => {
   return(

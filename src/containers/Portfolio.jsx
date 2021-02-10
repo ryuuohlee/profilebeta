@@ -1,5 +1,5 @@
 import React from 'react';
-import PortfolioCardList from '../components/PortfolioCardList.jsx'
+import PortfolioCardList from '../components/Portfolio/PortfolioCardList.jsx'
 import './Portfolio.css';
 import { projects } from '../database/projects.js';
 
