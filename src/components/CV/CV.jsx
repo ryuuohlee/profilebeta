@@ -8,7 +8,7 @@ const CV = () => {
         <h2 className="page-title">
           CV
         </h2>
-        <Iframe src="../src/images/resume.pdf"
+        <Iframe src="../src/images/Jeffrey Lee Software Engineer Resume.pdf"
         width="95%"
         className="cv-container" />
     </div>
