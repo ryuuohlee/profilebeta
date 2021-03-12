@@ -6,7 +6,6 @@ const EduList = props => {
   let schools = props.schools;
   return(
   <div className="experience-past">
-    <h3>Previous</h3>
     {schools.map(school => <EduCard school={school} key={school.id}/>)}
   </div>
   )
