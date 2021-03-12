@@ -1,16 +1,28 @@
+let num = 0;
+
 export const jobs = [
   {
-    id: 1,
+    id: num += 1,
     company: 'Accenture',
     title: 'Global Quality Manager',
-    duration: 'May 2019 - Present',
+    duration: '05/2019 - Present',
     location: 'USA',
     companyImg: '../src/images/accenture.png',
     description: 'Manage quality assurance teams for client projects across the globe managing 90 agents and six team leads.',
     achievements: ['Created and currently maintain quality programs for 13+ workflows to protect additional client assets.', 'Implemented workflow corrections to reduce the error rate by 50% bringing it to under 2% error rate.', 'Developed and launched new review tool for QA agents via Chrome extension improving review handle time and data security.', 'Designed a calibration process to ensure uniform decision making keeping the team over 90% accuracy and precision rate to reduce error.']
   },
   {
-    id: 2,
+    id: num += 1,
+    company: '360 Investments',
+    title: 'Technical Project Manager',
+    duration: '02/2021 - 05/2021',
+    location: 'USA',
+    companyImg: '../src/images/360invest2.png',
+    description: 'Oversaw project initiative of converting the previous website to current and more modern technologies.',
+    achievements: ['Collaborated with all parties to ensure successful delivery of the project.', 'Translated strategy into action and oversaw/managed aspects of strategic initiatives.', 'Served as a central coordinator between project participants using strong negotiation and relationship management skills.']
+  },
+  {
+    id: num += 1,
     company: 'Accenture',
     title: 'Quality Assurance Team Lead',
     duration: 'February 2017 - May 2019',
@@ -20,7 +32,7 @@ export const jobs = [
     achievements: ['Received commendation from leadership on great work provided to client for store quality improvements.', 'Identified program issues and enacted an error labeling, reducing the error rate to under 4%.', 'Developed and launched review tools for QA agents via Plx Dashboards and Google forms.', 'Proved the importance of having a quality program by showing all the harm caught and fixed, allowing the QA program to expand from 3 workflows to 11 workflows.']
   },
   {
-    id: 3,
+    id: num += 1,
     company: 'VisionIT',
     title: 'Quality Assurance Analyst (via VisionIt) @ Google',
     duration: 'January 2016 - February 2017',
@@ -30,7 +42,7 @@ export const jobs = [
     achievements: ['First quality agent from the escalation team to initiate a quality program for the escalation team.', 'Completed several different projects that shaped the quality program to this day.', `Finished several different RCA's that helped bring down the error rate by 2%.`]
   },
   {
-    id: 4,
+    id: num += 1,
     company: 'VisionIT',
     title: 'Tier 2 Content Media specialist (via VisionIt) @ Google',
     duration: 'February 2015 - December 2015',
@@ -40,7 +52,7 @@ export const jobs = [
     achievements: ['Protect and improve the user experience along with important partner experience with the company.', 'Review 150 escalated apps daily while maintaining a quality score average of 99% accuracy.', `Created several tools that have been implemented into workflow to help streamline processes and show productivity.`]
   },
   {
-    id: 5,
+    id: num += 1,
     company: 'VisionIT',
     title: 'Content Media specialist (via VisionIt) @ Google',
     duration: 'July 2014 - January 2015',
@@ -50,7 +62,7 @@ export const jobs = [
     achievements: ['Performed a wide variety of application policy reviews.', 'Piloted and gave feedback to many different policies that shape the Play store today.', `Actioned on an average of 380 apps a day while maintaining a quality score of 99% accuracy.`]
   },
   {
-    id: 6,
+    id: num += 1,
     company: 'Cinemark',
     title: 'Senior Assistant Manager',
     duration: 'November 2010 - September 2014',
@@ -60,7 +72,7 @@ export const jobs = [
     achievements: ['Received Company Award for Most Reliable Employee.', 'Continually contributed to ensuring high scoring auditing results from company audits.', `Ensured smooth operations of the entire business while maintaining a 10% annual profit growth.`]
   },
   {
-    id: 7,
+    id: num += 1,
     company: 'Cinemark',
     title: 'Theatre Technology Assistant',
     duration: 'January 2012 - September 2014',
@@ -70,7 +82,7 @@ export const jobs = [
     achievements: ['Ensure high-quality performance on all entertainment equipment.', 'Act as the local onsite point person and interface with corporate IT Helpdesk on any escalated issues and maintenance.', `Perform Theatre Media Server maintenance such as uploading and downloading new content and verifying that all individual projector SMS systems are connected to the main server.`]
   },
   {
-    id: 7,
+    id: num += 1,
     company: 'Cinemark',
     title: 'Assistant Manager',
     duration: 'March 2009 - November 2010',

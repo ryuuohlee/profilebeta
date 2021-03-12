@@ -12,7 +12,7 @@ class Experience extends React.Component {
 
     this.state={
       jobs: jobs,
-      places: ['../src/images/accenture.png','../src/images/visionit.png', '../src/images/cinemark.jpg' ]
+      places: ['../src/images/accenture.png','../src/images/visionit.png', '../src/images/cinemark.jpg', '../src/images/360investments.png' ]
     }
   }
   render() {
