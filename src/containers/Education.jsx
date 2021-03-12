@@ -1,5 +1,5 @@
 import React from 'react';
-// import EduCard from '../components/EduCard.jsx';
+import EduList from '../components/Education/EduList.jsx';
 import CertList from '../components/Education/Certification/CertList.jsx';
 import Achievements from '../components/Education/Achievements/Achievements.jsx';
 import Certificates from '../components/Education/Certification/Certificates.jsx';
@@ -23,23 +23,7 @@ class Education extends React.Component {
         </h2>
         <div className="experience-current">
           <h3>Institution</h3>
-          <div className="experience-container">
-            <div className="experience-title-company">
-              <h3>{this.state.schools[0].study}</h3>
-              <img src={this.state.schools[0].schoolImg} className="experience-container-company" />
-            </div>
-            <div className="experience-details">
-              <div className="experience-details-description">{this.state.schools[0].description}</div>
-              <div className="experience-details-achievements">
-                  <ul>
-                    {this.state.schools[0].achievements.map(achievement => <Achievements achievement={achievement} key={achievement}/>)}
-                  </ul>
-              </div>
-            </div>
-            <div className="experience-details-time">
-                  {this.state.schools[0].duration} | {this.state.schools[0].location}
-            </div>
-          </div>
+          <EduList schools={this.state.schools} />
         </div>
         <CertList certificates={this.state.certifications}/>
       </div>

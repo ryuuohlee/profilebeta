@@ -1,23 +1,23 @@
 import React from 'react';
-import Achievements from './Achievements.jsx';
+import Achievements from './Achievements/Achievements.jsx';
 
 const EduCard = props => {
   return(
       <div className="experience-container">
         <div className="experience-title-company">
-          <h4>{props.job.title}</h4>
-          <img src={props.job.companyImg} className="experience-container-company" />
+          <h4>{props.school.study}</h4>
+          <img src={props.school.schoolImg} className="experience-container-company" />
         </div>
         <div className="experience-details">
-          <div className="experience-details-description">{props.job.description}</div>
+          <div className="experience-details-description">{props.school.description}</div>
           <div className="experience-details-achievements">
               <ul>
-                {props.job.achievements.map(achievement => <Achievements achievement={achievement} key={achievement}/>)}
+                {props.school.achievements.map(achievement => <Achievements achievement={achievement} key={achievement}/>)}
               </ul>
           </div>
         </div>
         <div className="experience-details-time">
-              {props.job.duration} | {props.job.location}
+              {props.school.duration} | {props.school.location}
         </div>
       </div>
   )
