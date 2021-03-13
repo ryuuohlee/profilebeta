@@ -25,7 +25,9 @@ class Education extends React.Component {
           <h3>Institution</h3>
           <EduList schools={this.state.schools} />
         </div>
-        <CertList certificates={this.state.certifications}/>
+        <div className="experience-past">
+          <CertList certificates={this.state.certifications}/>
+        </div>
       </div>
     )
   }

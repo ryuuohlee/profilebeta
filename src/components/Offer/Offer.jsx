@@ -18,12 +18,13 @@ const Offer = () => {
               <li>Back-End and Front-End development.</li>
               <li>Estimating tasks</li>
               <li>Developing, leading, launching, and monitoring the project.</li>
+              <li>Plan and manage the project from conception to completion using methodologies such as Agile, Scrum, Waterfall, and more.</li>
             </ul>
           </div>
         </p>
         <div className="offer-frontend">
           <h3 className="offer-title"><img src="../src/images/font-selection-editor.png" className="offer-title-icon"/>Front-End Engineering</h3>
-          <p><span className="offer-opening">I specialize in web applications written in <span className="offer-skill">React</span></span>. Recently started working with <span className="offer-skill">Angular</span> and <span className="offer-skill">Redux</span> to broaden my skill set. </p>
+          <p><span className="offer-opening">I specialize in web applications written in <span className="offer-skill">React</span></span>. Recently started working with <span className="offer-skill">Vue</span> and <span className="offer-skill">TypeScript</span> to broaden my skill set. </p>
           <p>My current skill set for front-end development includes:
             <div className="offer-list">
               <ul>
@@ -52,8 +53,21 @@ const Offer = () => {
             </div>
           </p>
         </div>
+        <div className="offer-frontend">
+          <h3 className="offer-title"><img src="../src/images/trello-website-logo.png" className="offer-title-icon"/>Technical Project Management</h3>
+          <p><span className="offer-opening">When it comes to Technical Project Management I specialize in <span className="offer-skill">Agile Scrum</span> framework.</span> I am also a certified <span className="offer-skill">Professional Scrum Master</span>.</p>
+          <p>For project management I can provide:
+            <div className="offer-list">
+              <ul>
+                <li>The integration of the Scrum framework into your organization.</li>
+                <li>Run the project using tools such as Jira/Confluence, Asana, Wrike, and more.</li>
+                <li>Successfully see the project from conception to completion.</li>
+              </ul>
+            </div>
+          </p>
+        </div>
         <div className="offer-contact">
-          <p>If you feel that I am a good fit for your team, please feel free to contact me. I'll respond as promptly as possible.</p>
+          <p>If you feel that I am a good fit for your team, please feel free to contact me and I'll respond as promptly as possible.</p>
         </div>
       </div>
     </div>

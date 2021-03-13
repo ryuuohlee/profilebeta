@@ -9,8 +9,8 @@ export const schools = [
     schoolImg: '../src/images/UC-Berkeley-Extension.png',
     location: 'USA',
     duration: '01/2021 - 06/2021',
-    description: '1000+ hours of intensive HTML, CSS, and JavaScript/React study for Full Stack Development with an admission rate of less than 3%.',
-    achievements: ['Learned and developed useing NodeJS and ExpressJS for backend development.', 'Used the MERN stack to develope several in class projects.', 'Deployed several projects using AWS.', 'Learned and implemented unit and end-to-end testing to check if applications are developed to the best of their capability.']
+    description: '500+ hours of intensive development of in-demand technical leadership and business management skills for the Software Development Life Cycle.',
+    achievements: ['Learned and developed project launch plans using multiple development methodologies.', 'Learned how to proficiently use tools such as Jira, Confluence, Asana, Wrike, and more.', 'Obtained Professional Scrum Master I certification from Scrum.org.']
   },
   {
     id: edNum += 1,
