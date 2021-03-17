@@ -29,7 +29,7 @@
   top: 100%;
   color: black;
   height: 100%;
-  width: 100%;
+  width: 90%;
   position: absolute;
   transition: top 0.5s ease;
 }
