@@ -31,7 +31,7 @@
   padding-left:30px;
   padding-bottom: 30px;
   background:
-    url(../images/electrical.jpg) center;
+    url(https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/electrical.jpg) center;
     background-size: cover;
     filter: grayscale(100%) opacity(0.10);
 }
