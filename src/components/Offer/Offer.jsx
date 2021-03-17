@@ -22,7 +22,7 @@ const Offer = () => {
           </ul>
         </div>
         <div className="offer-frontend">
-          <h3 className="offer-title"><img src="../src/images/font-selection-editor.png" className="offer-title-icon"/>Front-End Engineering</h3>
+          <h3 className="offer-title"><img src="https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/font-selection-editor.png" className="offer-title-icon"/>Front-End Engineering</h3>
           <p><span className="offer-opening">I specialize in web applications written in <span className="offer-skill">React</span></span>. Recently started working with <span className="offer-skill">Vue</span> and <span className="offer-skill">TypeScript</span> to broaden my skill set. </p>
           <p>My current skill set for front-end development includes:</p>
           <div className="offer-list">
@@ -35,7 +35,7 @@ const Offer = () => {
           </div>
         </div>
         <div className="offer-backend">
-          <h3 className="offer-title"><img src="../src/images/sitemap.png" className="offer-title-icon"/>Back-End Engineering</h3>
+          <h3 className="offer-title"><img src="https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/sitemap.png" className="offer-title-icon"/>Back-End Engineering</h3>
           <p className="offer-opening">For back-end development, my current stack includes <span className="offer-skill">ExpressJS</span>, <span className="offer-skill">MySQL</span>, and <span className="offer-skill">NodeJS</span>.</p>
           <p>Almost all the applications that I have launched have back-ends also worked on by me. Depending on the application purpose I have used many different technologies and frameworks to improve development speed, and application performance and reliability.
           </p>
@@ -51,7 +51,7 @@ const Offer = () => {
           </div>
         </div>
         <div className="offer-frontend">
-          <h3 className="offer-title"><img src="../src/images/trello-website-logo.png" className="offer-title-icon"/>Technical Project Management</h3>
+          <h3 className="offer-title"><img src="https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/trello-website-logo.png" className="offer-title-icon"/>Technical Project Management</h3>
           <p><span className="offer-opening">When it comes to Technical Project Management I specialize in <span className="offer-skill">Agile Scrum</span> framework.</span> I am also a certified <span className="offer-skill">Professional Scrum Master</span>.</p>
           <p>For project management I can provide:</p>
           <div className="offer-list">

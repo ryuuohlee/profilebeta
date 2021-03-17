@@ -18,12 +18,6 @@ class App extends React.Component {
     }
   }
 
-  // showModal = e => {
-  //   this.setState({
-  //     show: true
-  //   });
-  // };
-
   render() {
     return(
       <Router>
