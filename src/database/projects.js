@@ -3,6 +3,28 @@ let num = 0;
 export const projects = [
   {
     id: num += 1,
+    title: 'Koh',
+    description: 'Web application that utilizes the Clarifai API for facial recognition.',
+    image: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/reminded-me-of-koh-the-face-stealer-47674503.png',
+    technologies: ['React.js', 'JavaScript', 'HTML', 'CSS', 'tachyons', 'ClarifaiAPI', 'Webpack', 'Babel', 'Node.js', 'Expresss', 'Knex', 'PostgreSQL', 'bcrypt'],
+    deployed: 'Heroku',
+    job: 'Software Engineer',
+    githublink: 'https://github.com/ryuuohlee/koh',
+    weblink: 'https://jeffreylee.tech/bringTheBoom'
+  },
+  {
+    id: num += 1,
+    title: 'Portfolio',
+    description: 'Web application for my online portfolio',
+    image: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/lee.png',
+    technologies: ['React.js', 'JavaScript', 'HTML', 'CSS', 'Webpack', 'Babel', 'React Router'],
+    deployed: 'Github Pages',
+    job: 'Software Engineer',
+    githublink: 'https://github.com/ryuuohlee/ryuuohlee.github.io',
+    weblink: 'https://jeffreylee.tech'
+  },
+  {
+    id: num += 1,
     title: 'Bring the Boom',
     description: 'Create custom Spotify playlist using Spotify API.',
     image: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/boombox.jpg',

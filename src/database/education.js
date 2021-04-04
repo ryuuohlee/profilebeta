@@ -45,7 +45,7 @@ export const certifications = [
     school: 'Zero to Mastery',
     schoolImg: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/ztm.jpeg',
     location: 'USA',
-    achievements: ['Mastering the Coding Interview: Data Structures and Algorithms, https://www.credential.net/85da0aa1-0955-4236-acda-a65ea2be838c?username=jeffreylee97355']
+    achievements: ['Mastering the Coding Interview: Data Structures and Algorithms, https://www.credential.net/85da0aa1-0955-4236-acda-a65ea2be838c?username=jeffreylee97355', 'The Complete Web Developer in 2021: Zero to Mastery, https://www.credential.net/e3619e58-0a24-4a65-a0fb-c7efcaddfc2b?username=jeffreylee97355#gs.xecnoc']
   },
   {
     id: certNum += 1,
