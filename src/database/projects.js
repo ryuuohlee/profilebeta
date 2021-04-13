@@ -10,7 +10,7 @@ export const projects = [
     deployed: 'Heroku',
     job: 'Software Engineer',
     githublink: 'https://github.com/ryuuohlee/koh',
-    weblink: 'https://jeffreylee.tech/bringTheBoom'
+    weblink: 'https://koh-the-face-stealer.herokuapp.com/'
   },
   {
     id: num += 1,
@@ -30,7 +30,7 @@ export const projects = [
     image: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/boombox.jpg',
     technologies: ['React.js', 'JavaScript', 'HTML', 'CSS', 'SpotifyAPI', 'create-react-app'],
     deployed: 'GitHub Pages',
-    job: 'Software Engineer',
+    job: 'Front-end Engineer',
     githublink: 'https://github.com/ryuuohlee/bringTheBoom',
     weblink: 'https://jeffreylee.tech/bringTheBoom'
   },
@@ -41,7 +41,7 @@ export const projects = [
     image: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/sikfan.png',
     technologies: ['React.js', 'JavaScript', 'HTML', 'CSS', 'YelpAPI', 'create-react-app'],
     deployed: 'GitHub Pages',
-    job: 'Software Engineer',
+    job: 'Front-end Engineer',
     githublink: 'https://github.com/ryuuohlee/sikFan',
     weblink: 'https://jeffreylee.tech/sikFan'
   },
