@@ -36,7 +36,7 @@ const PortfolioCard = props => {
         <p><span className="project-technologies">Technologies: </span>{props.project.technologies.join(", ")}</p>
         <p><span className="project-technologies">Deployed on: </span>{props.project.deployed}</p>
         <div className="project-links">
-          <a href={props.project.githublink}>
+          <a href={props.project.githublink} target="_blank">
             <img src="https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/github-sign.png" className="project-icon" title="Check my code" />
           </a>
           <a href={props.project.weblink} target="_blank">
