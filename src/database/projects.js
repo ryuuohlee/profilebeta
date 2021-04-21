@@ -15,7 +15,7 @@ export const projects = [
   {
     id: num += 1,
     title: 'Portfolio',
-    description: 'Web application for my online portfolio',
+    description: 'Web application for my online portfolio.',
     image: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/lee.png',
     technologies: ['React.js', 'JavaScript', 'HTML', 'CSS', 'Webpack', 'Babel', 'React Router'],
     deployed: 'Github Pages',
@@ -37,7 +37,7 @@ export const projects = [
   {
     id: num += 1,
     title: 'Sik Fan la!',
-    description: 'Restaurant searching application using Yelp API',
+    description: 'Restaurant searching application using Yelp API.',
     image: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/sikfan.png',
     technologies: ['React.js', 'JavaScript', 'HTML', 'CSS', 'YelpAPI', 'create-react-app'],
     deployed: 'GitHub Pages',
