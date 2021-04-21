@@ -6,9 +6,9 @@ const PortfolioCard = props => {
       <div className="project-card">
         <div className="project-description">
           <img className="project-image" src={props.project.image}/>
-          <h2 className="project-title">
+          <h3 className="project-title">
             {props.project.title}
-          </h2>
+          </h3>
           <p className="project-description">{props.project.description}</p>
         </div>
         <div className="overlay">
@@ -27,9 +27,9 @@ const PortfolioCard = props => {
     <div className="project-card">
       <div className="project-description">
         <img className="project-image" src={props.project.image}/>
-        <h2 className="project-title">
+        <h3 className="project-title">
           {props.project.title}
-        </h2>
+        </h3>
         <p className="project-description">{props.project.description}</p>
       </div>
       <div className="overlay">
