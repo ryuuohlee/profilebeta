@@ -31,7 +31,7 @@ export const certifications = [
     school: 'Scrum.org',
     schoolImg: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/Scrumorg-Logo_tagline-TM_(1)_(1)_(2).jpg',
     location: 'USA',
-    achievements: ['Professional Scrum Master I, https://www.credential.net/1535fe5d-9e0f-4158-904d-102d9864f3fe?username=jeffreylee97355#gs.vxg5nt'],
+    achievements: ['Professional Scrum Master I, https://www.credential.net/1535fe5d-9e0f-4158-904d-102d9864f3fe?username=jeffreylee97355#gs.vxg5nt', 'Profession Scrum Product Owner I, https://www.credential.net/d52236ed-185d-4e0e-b5a7-5bc98689386e?username=jeffreylee97355'],
   },
   {
     id: certNum += 1,

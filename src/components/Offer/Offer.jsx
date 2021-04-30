@@ -52,7 +52,7 @@ const Offer = () => {
         </div>
         <div className="offer-frontend">
           <h3 className="offer-title"><img src="https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/trello-website-logo.png" className="offer-title-icon"/>Technical Project Management</h3>
-          <p><span className="offer-opening">When it comes to Technical Project Management I specialize in <span className="offer-skill">Agile Scrum</span> framework.</span> I am also a certified <span className="offer-skill">Professional Scrum Master</span>.</p>
+          <p><span className="offer-opening">When it comes to Technical Project Management I specialize in <span className="offer-skill">Agile Scrum</span> framework.</span> I am also a certified <span className="offer-skill">Professional Scrum Master</span> and <span className="offer-skill">Professional Scrum Product Owner</span>.</p>
           <p>For project management I can provide:</p>
           <div className="offer-list">
             <ul>
