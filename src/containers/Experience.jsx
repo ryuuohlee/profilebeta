@@ -16,17 +16,19 @@ class Experience extends React.Component {
     }
   }
   render() {
+    let {jobs, places} = this.state;
     return(
       <div className="site-main">
           <h2 className="page-title">
             Experience
           </h2>
+          {/**Current Position */}
         <div className="experience-current">
           <h3>Current</h3>
           <div className="experience-container">
             <div className="experience-title-company">
-              <h4>{this.state.jobs[0].title}</h4>
-              <img src={this.state.jobs[0].companyImg} className="experience-container-company" />
+              <h4>{jobs[0].title}</h4>
+              <img src={jobs[0].companyImg} className="experience-container-company" />
             </div>
             <div className="experience-details">
               <div className="experience-details-description">{this.state.jobs[0].description}</div>
@@ -41,11 +43,13 @@ class Experience extends React.Component {
             </div>
           </div>
         </div>
+        {/**Image logos of places I have worked at */}
         <div className="work-place-container">
           <h3 className="work-place-header">Work Places</h3>
           <WorkList places={this.state.places}/>
         </div>
-          <ExpList jobs={this.state.jobs} />
+        {/**Previous Positions */}
+        <ExpList jobs={this.state.jobs} />
       </div>
     )
   }

@@ -21,8 +21,10 @@
 }
 
 .experience-container-company {
-  width: 25%;
-  height: 90px;
+  width: auto;
+  height: 80px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .experience-details {

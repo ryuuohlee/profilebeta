@@ -10,19 +10,13 @@ import css from './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 class App extends React.Component {
-  constructor(props) {
-    super(props)
-
-    this.state={
-      show: false
-    }
-  }
 
   render() {
     return(
+      //creates the routes for which page to render
       <Router>
         <div className='home-parent'>
-          <Navbar show={this.state.show}/>
+          <Navbar />
           <div className="site-main-home">
           </div>
           <Switch>

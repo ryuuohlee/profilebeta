@@ -4,7 +4,7 @@ import CertList from '../components/Education/Certification/CertList.jsx';
 import Achievements from '../components/Education/Achievements/Achievements.jsx';
 import Certificates from '../components/Education/Certification/Certificates.jsx';
 import './Experience.css';
-import { schools,certifications } from '../database/education.js'
+import { schools, certifications } from '../database/education.js'
 
 class Education extends React.Component {
   constructor(props) {
@@ -16,17 +16,20 @@ class Education extends React.Component {
     }
   }
   render() {
+    let {schools, certifications} = this.state;
     return(
       <div className="site-main">
         <h2 className="page-title">
           Education
         </h2>
+        {/**Learning Institutions */}
         <div className="experience-current">
           <h3>Institution</h3>
-          <EduList schools={this.state.schools} />
+          <EduList schools={schools} />
         </div>
+        {/**Certifications */}
         <div className="experience-past">
-          <CertList certificates={this.state.certifications}/>
+          <CertList certificates={certifications}/>
         </div>
       </div>
     )

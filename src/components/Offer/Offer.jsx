@@ -7,6 +7,7 @@ const Offer = () => {
       <h2 className="page-title">
         My Offer
       </h2>
+       {/*offer overview*/}
       <div className="offer-overview">
         <p className="offer-opening">An intelligent, hardworking full-stack software engineer ready to work.</p>
         <p>I have helped maintain, plan, test, develop, and launch multiple projects from scratch, working on both the <span className="offer-job-emphasis">back-end</span> and <span className="offer-job-emphasis">front-end</span> codebases.</p>
@@ -21,6 +22,7 @@ const Offer = () => {
             <li>Plan and manage the project from conception to completion using methodologies such as Agile, Scrum, Waterfall, and more.</li>
           </ul>
         </div>
+       { /*Front-end offer*/}
         <div className="offer-frontend">
           <h3 className="offer-title"><img src="https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/font-selection-editor.png" className="offer-title-icon"/>Front-End Engineering</h3>
           <p><span className="offer-opening">I specialize in web applications written in <span className="offer-skill">React</span></span>. Recently started working with <span className="offer-skill">Vue</span> and <span className="offer-skill">TypeScript</span> to broaden my skill set. </p>
@@ -34,6 +36,7 @@ const Offer = () => {
             </ul>
           </div>
         </div>
+        {/*Back-end offer*/}
         <div className="offer-backend">
           <h3 className="offer-title"><img src="https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/sitemap.png" className="offer-title-icon"/>Back-End Engineering</h3>
           <p className="offer-opening">For back-end development, my current stack includes <span className="offer-skill">ExpressJS</span>, <span className="offer-skill">MySQL</span>, and <span className="offer-skill">NodeJS</span>.</p>
@@ -50,7 +53,8 @@ const Offer = () => {
             </ul>
           </div>
         </div>
-        <div className="offer-frontend">
+        {/**TPM offer*/}
+        <div className="offer-tpm">
           <h3 className="offer-title"><img src="https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/trello-website-logo.png" className="offer-title-icon"/>Technical Project Management</h3>
           <p><span className="offer-opening">When it comes to Technical Project Management I specialize in <span className="offer-skill">Agile Scrum</span> framework.</span> I am also a certified <span className="offer-skill">Professional Scrum Master</span> and <span className="offer-skill">Professional Scrum Product Owner</span>.</p>
           <p>For project management I can provide:</p>
