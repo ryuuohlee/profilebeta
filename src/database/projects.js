@@ -25,6 +25,17 @@ export const projects = [
   },
   {
     id: num += 1,
+    title: 'To do',
+    description: 'Web application for a to-do task manager.',
+    image: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/list-on-window.png',
+    technologies: ['React.js', 'JavaScript', 'HTML', 'CSS', 'React Hooks', 'React Modal', 'Styled-components'],
+    deployed: 'Github Pages',
+    job: 'Software Engineer',
+    githublink: 'https://github.com/ryuuohlee/To-do',
+    weblink: 'https://jeffreylee.tech/To-do/'
+  },
+  {
+    id: num += 1,
     title: 'Bring the Boom',
     description: 'Create custom Spotify playlist using Spotify API.',
     image: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/boombox.jpg',
