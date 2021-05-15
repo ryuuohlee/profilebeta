@@ -3,6 +3,17 @@ let num = 0;
 export const projects = [
   {
     id: num += 1,
+    title: 'COVID Tracker',
+    description: 'Web application that utilizes the Diseases.sh to track COVID case numbers.',
+    image: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/viruses-solid.svg',
+    technologies: ['Vue.js', 'Tailwind', 'Chart.js', "Vue-Leaflet", 'Vue-Chart'],
+    deployed: 'Github Pages',
+    job: 'Software Engineer',
+    githublink: 'https://github.com/ryuuohlee/covid-19-tracker',
+    weblink: 'https://jeffreylee.tech/covid-19-tracker'
+  },
+  {
+    id: num += 1,
     title: 'Koh',
     description: 'Web application that utilizes the Clarifai API for facial recognition.',
     image: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/reminded-me-of-koh-the-face-stealer-47674503.png',
