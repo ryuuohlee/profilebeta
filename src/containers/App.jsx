@@ -7,7 +7,7 @@ import Experience from '../containers/Experience.jsx';
 import Education from './Education.jsx';
 import CV from '../components/CV/CV.jsx';
 import css from './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 class App extends React.Component {
 
