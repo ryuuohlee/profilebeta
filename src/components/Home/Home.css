@@ -1,17 +1,22 @@
 .welcome {
+  z-index: -1;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50%;
+  height: 45%;
   width: 100%;
   position: absolute;
   content: '';
   background-image: url(https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/electrical.jpg);
-  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   filter: grayscale(100%) opacity(0.20);
 }
 .welcome-content {
-  padding-top: 15%;
+  padding-top: 10%;
+  margin-bottom: 18%;
+  max-height: 338px;
 }
 
 .site-main-welcome-salutation {
@@ -21,7 +26,7 @@
 }
 
 .site-main-welcome {
-  color: rgb(56, 161, 126) !important;
+  color: rgb(56, 161, 126);
 }
 
 .welcome-info {
@@ -79,7 +84,6 @@
   position: absolute;
   background: linear-gradient(180deg, rgba(255, 142, 113, 0), #0d1117);
 }
-
 
 .welcome-highlight {
   position: relative;
@@ -141,3 +145,4 @@
             transform: translateY(-75%);
   }
 }
+

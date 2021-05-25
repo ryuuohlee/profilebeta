@@ -1,0 +1,36 @@
+.personal-recommendations {
+  display: flex;
+  height: 10rem;
+  padding: 4rem;
+  padding-left: 20%;
+  padding-right: 20%;
+  background: lightgray;
+  color: black;
+}
+
+.recom-note {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.recom-recommender {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.quote {
+  margin: 10px;
+}
+
+.carousel-slider {
+  height: 200px;
+}
+
+.slider-wrapper {
+  height: 150px !important;
+}
+
+.carousel-status {
+  display: none;
+}

@@ -29,6 +29,11 @@
   object-fit: contain;
 }
 
+.site-nav-logo:hover {
+  color: rgb(209, 0, 38);
+  transform: scale(1.1);
+}
+
 .site-page-list {
   display: flex;
   flex-direction: row;
@@ -48,6 +53,7 @@
 .site-page:hover {
   text-decoration: underline;
   font-weight: 700;
+  color: rgb(209, 0, 38);
   transform: scale(1.1);
 }
 

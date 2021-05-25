@@ -1,41 +1,63 @@
-import React from 'react';
+import React, { useState }from 'react';
+import Recommendations from '../Recommendations/Recommendations.jsx';
 import './Home.css';
+import { recommendations } from '../../database/recommendations.js';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons'
 
-const Home = () => {
-  return(
-    <main>
-      <div className="site-main">
-          <div className="welcome">
-          </div>
-            <div className="welcome-content">
-                <div className="site-main-welcome-salutation">
-                  <h1 className="site-main-welcome">Hello! I'm Jeff,</h1>
-                </div>
-              <div className="welcome-info">
-                <p className="site-main-welcome-start"> a </p>
-                <div className="site-main-welcome-info-roles">
-                    <ul className="role-list">
-                      <li className="role">software engineer</li>
-                      <li className="role">mechanical engineer</li>
-                      <li className="role">project manager</li>
-                      <li className="role">software engineer</li>
-                    </ul>
-                </div>
-              </div>
-              <div>
-                <p className="site-main-welcome-end"> who enjoys
-                  <span className="welcome-highlight">building things</span> that <span className="welcome-difference"> make a difference!</span>
-                </p>
+class Home extends React.Component {
+  constructor(props) {
+    super(props)
 
-              </div>
-            <div className="about-mission">
-              <h3 className="about-mission-statement">Thought-driven full-stack engineer with a passion for collaboration, problem solving, and thoughtful UI design.</h3>
+    this.state={
+      recommendations: recommendations
+    }
+  }
+
+  render() {
+    let {recommendations} = this.state;
+
+    return(
+        <div className="site-main">
+            <div className="welcome">
             </div>
-          </div>
-      </div>
-    </main>
+              <div className="welcome-content">
+                  <div className="site-main-welcome-salutation">
+                    <h1 className="site-main-welcome">Hello! I'm Jeff,</h1>
+                  </div>
+                <div className="welcome-info">
+                  <p className="site-main-welcome-start"> a </p>
+                  <div className="site-main-welcome-info-roles">
+                      <ul className="role-list">
+                        <li className="role">software engineer</li>
+                        <li className="role">mechanical engineer</li>
+                        <li className="role">project manager</li>
+                        <li className="role">software engineer</li>
+                      </ul>
+                  </div>
+                </div>
+                <div>
+                  <p className="site-main-welcome-end"> who enjoys
+                    <span className="welcome-highlight">building things</span> that <span className="welcome-difference"> make a difference!</span>
+                  </p>
 
-  )
+                </div>
+              <div className="about-mission">
+                <h3 className="about-mission-statement">Thought-driven software/mechanical engineer with a passion for collaboration, problem solving, and thoughtful UI design.</h3>
+              </div>
+            </div>
+            <div className="personal-recommendations">
+              <div className="quote">
+                <FontAwesomeIcon icon={faQuoteLeft} size="4x" />
+              </div>
+              <Recommendations recommendations={recommendations} />
+              <div className="quote">
+                <FontAwesomeIcon icon={faQuoteRight} size="4x" />
+              </div>
+            </div>
+        </div>
+    )
+  }
 }
 
 export default Home;
