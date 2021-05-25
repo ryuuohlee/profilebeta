@@ -1,39 +1,14 @@
+/*default site content */
 .home-parent {
   font-family: 'Roboto', Helvetica, sans-serif;
+  display: flex !important;
+  flex-direction: column;
+  color: lightgray;
 }
 
-/* page content default */
-.site-main {
+.site-body {
   top: 0;
-  left: 25%;
-  width: 75%;
-  height: 90%;
-  position: absolute;
-  padding-bottom: 30px !important;
-}
-
-.site-main-home {
-  top: 0;
-  left:25%;
-  width:75%;
-  height:100%;
-  position: absolute;
-}
-
-.site-main-home:after {
-  content: "";
-  top: 0;
-  left:25%;
-  width:75%;
-  height:90%;
-  position: fixed;
-  padding-top: 90px;
-  padding-left:30px;
-  padding-bottom: 30px;
-  background:
-    url(https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/electrical.jpg) center;
-    background-size: cover;
-    filter: grayscale(100%) opacity(0.10);
+  margin-top: 50px;
 }
 
 .page-title {
@@ -44,5 +19,5 @@
   padding-bottom: 10px;
   padding-left: 10px;
   background-color: rgb(56, 161, 126);
-  color:white;
+  color:lightgray;
 }
