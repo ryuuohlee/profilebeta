@@ -80,3 +80,24 @@
 .contact-icons:hover {
   transform: scale(1.1)
 }
+
+.site-have-media {
+  display: none;
+}
+
+@media  screen and (max-width: 1080px) {
+  .site-nav-parent {
+    height: 115px;
+  }
+
+  .site-nav-logo {
+    height: 90px;
+    width: 140px;
+
+  }
+
+  .site-page-list {
+    display: none;
+  }
+
+}

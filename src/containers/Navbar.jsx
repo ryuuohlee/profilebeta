@@ -1,10 +1,23 @@
 import React, { Component } from 'react';
 import Person from '../components/Home/Person.jsx';
 import CV from '../components/CV/CV.jsx';
+
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state={
+      open: false
+    }
+  }
+
+  onTap() {
+    setsState({ open: !this.open});
+  }
+
   render() {
     return(
       <div className="site-nav-parent">
@@ -14,6 +27,7 @@ class Navbar extends Component {
           </Link>
         </div>
         <div className="site-nav-selector">
+
           <nav>
             <ul className="site-page-list">
               <Link to="/" style={{ textDecoration: 'none' }}>

@@ -6,6 +6,7 @@ import Portfolio from './Portfolio.jsx';
 import Experience from '../containers/Experience.jsx';
 import Education from './Education.jsx';
 import CV from '../components/CV/CV.jsx';
+import Hamburger from '../components/Hamburger/Hamburger.jsx';
 import css from './App.css';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -15,11 +16,12 @@ class App extends React.Component {
     return(
       //creates the routes for which page to render
       <Router>
-        <div className='home-parent'>
+        <div className='home-parent' id="App">
           <div className="site-nav">
             <Navbar />
+            <Hamburger pageWrapId={"page-wrap"} outerContainerId={"App"} />
           </div>
-          <main className="site-body">
+          <main className="site-body" id="page-wrap">
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/about" component={About} />

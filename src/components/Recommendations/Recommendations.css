@@ -34,3 +34,24 @@
 .carousel-status {
   display: none;
 }
+
+@media screen and (max-width: 1080px) {
+  .personal-recommendations {
+    justify-content: center;
+    height: 10rem;
+    padding: 10rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* font-size: 30px; */
+  }
+
+  .recom-note {
+    width: 80%;
+    height: 200px;
+  }
+
+  .quote {
+    margin: 30px;
+  }
+
+}
