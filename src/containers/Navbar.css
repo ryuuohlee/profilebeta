@@ -100,4 +100,10 @@
     display: none;
   }
 
+  .site-page-list-mobile {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none !important;
+  }
+
 }

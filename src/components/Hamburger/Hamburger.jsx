@@ -6,7 +6,7 @@ const Hamburger = (props) => {
   return (
     <Menu {...props}>
       <nav>
-        <ul className="site-page-list">
+        <ul className="site-page-list-mobile">
           <Link to="/" style={{ textDecoration: 'none' }}>
             <li className="site-page">Home</li>
           </Link>
