@@ -4,7 +4,7 @@ const RecomCard = props => {
   let { recommendation, recommender, date } = props.recommendation;
 
   return(
-   <div>
+   <div className="recom-card">
      <div className="recom-note">
        {recommendation}
      </div>
