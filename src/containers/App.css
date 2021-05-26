@@ -24,3 +24,37 @@
   background-color: rgb(56, 161, 126);
   color:lightgray;
 }
+
+.bm-burger-button {
+  display: none;
+}
+
+@media screen and (max-width: 1080px) {
+  .bm-burger-button {
+    display: flex;
+    position: fixed;
+    width: 80px;
+    height: 60px;
+    right: 30px;
+    top: 25px;
+  }
+
+  .bm-burger-bars {
+    background: lightgray;
+    height: 5px;
+  }
+
+  .bm-burger-bars-hover {
+    background: rgb(209, 0, 38);
+  }
+
+  .bm-menu {
+    background: linear-gradient(
+      rgba(59, 146, 117, 1),
+      rgba(56, 161, 126,1)
+    );;
+    padding: 2.5em 1.5em 0;
+    font-size: 100px;
+  }
+
+}

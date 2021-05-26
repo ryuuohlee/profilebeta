@@ -12,6 +12,7 @@ const Recommendations = props => {
       autoPlay="true"
       dynamicHeight="true"
       infiniteLoop="true"
+      showThumbs="false"
       >
       {recommendations.map(recommendation => <RecomCard recommendation={recommendation} key={recommendation.id} />)}
     </Carousel>

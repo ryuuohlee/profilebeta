@@ -1,7 +1,6 @@
 import React from 'react';
 
 const RecomCard = props => {
-  console.log(props);
   let { recommendation, recommender, date } = props.recommendation;
 
   return(
