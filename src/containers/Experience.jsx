@@ -18,8 +18,8 @@ class Experience extends React.Component {
   render() {
     let {jobs, places} = this.state;
     return(
-      <div className="site-main">
-          <h2 className="page-title">
+      <div className="experience-body">
+          <h2 className="section-title">
             Experience
           </h2>
           {/**Current Position */}
