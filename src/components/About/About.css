@@ -22,7 +22,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:max-content;
+  width: max-content;
 }
 
 .person-picture-overlay{
@@ -114,10 +114,22 @@
   }
 }
 
+@keyframes scrollUp {
+  from {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  to {
+    -webkit-transform: translateY(-75%);
+    transform: translateY(-75%);
+  }
+}
+
 .personal-technologies {
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
+  margin-left: 15rem;
 }
 
 .technologies-list {
@@ -146,13 +158,49 @@
   color: rgb(56, 161, 126) ;
   font-weight: 600;
 }
-@keyframes scrollUp {
-  from {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+
+@media screen and (max-width: 1080px) {
+  .about-body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    font-size: 2rem;
   }
-  to {
-    -webkit-transform: translateY(-75%);
-            transform: translateY(-75%);
+
+  .about-content {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .about-story {
+    width: 80%;
+    font-size: 2rem;
+  }
+
+  .person-picture-overlay{
+    display: none;
+  }
+
+  .about-person-roles {
+    height: 55px;
+  }
+
+  .about-role-list .about-role {
+    font-weight: 600;
+  }
+
+  .personal-technologies {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin: 4rem;
+  }
+
+  .technologies-list {
+    grid-template-columns: 50% 50%;
+    justify-content: left;
   }
 }

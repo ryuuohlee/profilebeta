@@ -35,7 +35,6 @@ const About = () => {
             Fast-forward to the present, I had the privilege of being about to attend the <span className="highlight">Hack Reactor</span> Full-Stack JavaScript bootcamp in 2019 studying <span className="highlight">full-stack web development</span>, <span className="highlight">JavaScript</span>, <span className="highlight">React</span>, <span className="highlight">Node.js</span> and I have built several personal applications since then. I have also completed the <span className="highlight">UC Berkeley Extension</span> Technology Project Management bootcamp to gain a deeper understanding of SDLC Life Cycle methodologies and I have obtained my <span className="highlight">PSM</span> and <span className="highlight">PSPO</span>.
           </p>
         </div>
-
       </div>
       <div className="personal-technologies">
         <div>
@@ -45,7 +44,7 @@ const About = () => {
         </div>
         <div className="technologies-list">
           {technologies.map(tech =>
-            <div className="technology">
+            <div className="technology" key={tech}>
               <div className="technology-arrow-icon">
                 <FontAwesomeIcon icon={faAngleRight} size="1x" />
               </div>

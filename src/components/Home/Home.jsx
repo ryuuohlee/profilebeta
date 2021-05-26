@@ -1,6 +1,6 @@
 import React, { useState }from 'react';
 import Recommendations from '../Recommendations/Recommendations.jsx';
-import { SkillsHome } from '../Skills/Skills.jsx';
+import SkillsHome from '../Skills/Skills.jsx';
 import './Home.css';
 import { recommendations } from '../../database/recommendations.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Skills.css'
 
-export const SkillsHome = (props) => {
+const SkillsHome = (props) => {
   let { skills } = props;
 
   return(
@@ -20,3 +20,4 @@ export const SkillsHome = (props) => {
   )
 }
 
+export default SkillsHome;
