@@ -14,9 +14,9 @@ class Portfolio extends React.Component{
 
   render() {
     return(
-      <div className="site-main">
-        <h2 className="page-title">
-          My Portfolio
+      <div className="portfolio-body">
+        <h2 className="section-title">
+          Portfolio:
         </h2>
         <div>
           <PortfolioCardList projects={this.state.projects} />
