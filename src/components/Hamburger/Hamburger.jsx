@@ -8,25 +8,26 @@ const Hamburger = (props) => {
   }
 
   return (
-    <Menu pushRotate width={ '80%' }>
+    <Menu
+    width={ '80%' }>
       <nav>
         <ul className="site-page-list-mobile">
-          <Link to="/" style={{ textDecoration: 'none' }} onClick={refreshPage}>
+          <Link to="/" style={{ textDecoration: 'none' }} >
             <li className="site-page-mobile">Home</li>
           </Link>
-          <Link to="/about" style={{ textDecoration: 'none' }} onClick={refreshPage}>
+          <Link to="/about" style={{ textDecoration: 'none' }} >
             <li className="site-page-mobile">About</li>
           </Link>
-          <Link to="/portfolio" style={{ textDecoration: 'none' }} onClick={refreshPage}>
+          <Link to="/portfolio" style={{ textDecoration: 'none' }} >
             <li className="site-page-mobile">Portfolio</li>
           </Link>
-          <Link to="/experience" style={{ textDecoration: 'none' }} onClick={refreshPage}>
+          <Link to="/experience" style={{ textDecoration: 'none' }} >
             <li className="site-page-mobile">Experience</li>
           </Link>
-          <Link to="/education" style={{ textDecoration: 'none' }} onClick={refreshPage}>
+          <Link to="/education" style={{ textDecoration: 'none' }} >
             <li className="site-page-mobile">Education</li>
           </Link>
-          <Link to="/cv" style={{ textDecoration: 'none' }} onClick={refreshPage}>
+          <Link to="/cv" style={{ textDecoration: 'none' }} >
             <li className="site-page-mobile">CV</li>
           </Link>
         </ul>

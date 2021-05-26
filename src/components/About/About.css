@@ -1,0 +1,158 @@
+.about-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
+  margin: auto;
+}
+
+.about-story {
+  float: left;
+  shape-outside: ellipse(150px 300px at 50% 50%) !important;
+  width: 50%;
+  margin-left: 1rem;
+}
+
+.about-self-portrait {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:max-content;
+}
+
+.person-picture-overlay{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 11.2rem;
+  height: 12.2rem;
+  margin-top: -2.7rem;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background: rgba(56, 161, 126,.5);
+}
+
+.person-picture-overlay:hover {
+  display: none;
+}
+
+.person-picture {
+  z-index: -1;
+  width: 70%;
+  height: auto;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  margin: 0;
+  margin-bottom: 1rem;
+  filter: rgba(56, 161, 126,.5);
+}
+
+.about-person-roles {
+  top: -50px;
+  height: 30px;
+  width: fit-content;
+  margin-left: 15px;
+  margin-right: 15px;
+  overflow: hidden;
+}
+
+.about-person-roles::before {
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  background: linear-gradient(180deg, #0d1117, rgba(255, 142, 113, 0));
+}
+
+.about-person-roles::after {
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(255, 142, 113, 0), #0d1117);
+}
+
+.about-role-list {
+  float: left;
+  text-align: center;
+  color: rgb(56, 161, 126) ;
+  margin: 0;
+  padding: 0;
+  -webkit-animation: scrollUp 6s ease-in-out infinite normal;
+          animation: scrollUp 6s ease-in-out infinite normal;
+}
+
+.about-role-list .about-role {
+  font-size: 1.5em;
+  font-weight: 300;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  list-style: none;
+}
+
+@-webkit-keyframes scrollUp {
+  from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  to {
+    -webkit-transform: translateY(-75%);
+            transform: translateY(-75%);
+  }
+}
+
+.personal-technologies {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.technologies-list {
+  display: inline-grid;
+  grid-template-columns: 20% 20%;
+  justify-content: left;
+}
+
+.technology {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.technology:hover {
+  font-weight: 600;
+  transform: scale(1.1);
+}
+
+.technology-arrow-icon {
+  margin-right: 1rem;
+  color: rgb(56, 161, 126) ;
+}
+
+.highlight {
+  color: rgb(56, 161, 126) ;
+  font-weight: 600;
+}
+@keyframes scrollUp {
+  from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  to {
+    -webkit-transform: translateY(-75%);
+            transform: translateY(-75%);
+  }
+}

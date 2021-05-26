@@ -3,7 +3,7 @@
   font-family: 'Roboto', Helvetica, sans-serif;
   display: flex !important;
   flex-direction: column;
-  color: lightgray;
+  color: gray;
 }
 
 .site-body {
@@ -30,12 +30,16 @@
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
-  left: 50%;
+  position: relative;
+  bottom: 0px;
   text-align: center;
   font-size: x-small;
   margin-bottom: 30px;
+}
+
+.personal-technologies {
+  display: flex;
+  margin-left: 15rem;
 }
 
 @media screen and (max-width: 1080px) {
