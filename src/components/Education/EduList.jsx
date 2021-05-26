@@ -4,7 +4,7 @@ import EduCard from './EduCard.jsx';
 const EduList = props => {
   let {schools} = props;
   return(
-  <div className="experience-past">
+  <div>
     {schools.map(school => <EduCard school={school} key={school.id}/>)}
   </div>
   )

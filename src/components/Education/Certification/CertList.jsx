@@ -3,7 +3,7 @@ import CertCard from './CertCard.jsx';
 
 const CertList = props => {
   return(
-  <div className="experience-current">
+  <div>
     <h3>Certifications</h3>
     {props.certificates.map(cert => <CertCard cert={cert} key={cert.id}/>)}
   </div>

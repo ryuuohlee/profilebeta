@@ -18,9 +18,9 @@ class Education extends React.Component {
   render() {
     let {schools, certifications} = this.state;
     return(
-      <div className="site-main">
-        <h2 className="page-title">
-          Education
+      <div className="experience-body">
+        <h2 className="section-title">
+          Education:
         </h2>
         {/**Learning Institutions */}
         <div className="experience-current">
