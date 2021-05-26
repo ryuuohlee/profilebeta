@@ -147,6 +147,14 @@
   }
 }
 
+.skills-section {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+
 @media screen and (max-width: 1080px) {
   .welcome {
     height: 50%;

@@ -38,6 +38,10 @@ class App extends React.Component {
               <Route path="/cv" component={CV} />
             </Switch>
           </main>
+          <footer>
+            <p>Created by Jeffrey Lee</p>
+            <p>Hosted on Github Pages</p>
+          </footer>
         </div>
       </Router>
     )

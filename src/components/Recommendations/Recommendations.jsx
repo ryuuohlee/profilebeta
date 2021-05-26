@@ -9,11 +9,11 @@ const Recommendations = props => {
 
   return(
     <Carousel
-      autoPlay="true"
-      interval="6000"
-      dynamicHeight="true"
-      infiniteLoop="true"
-      showThumbs="false"
+      autoPlay={true}
+      interval={6000}
+      dynamicHeight={true}
+      infiniteLoop={true}
+      showThumbs={false}
       >
       {recommendations.map(recommendation => <RecomCard recommendation={recommendation} key={recommendation.id} />)}
     </Carousel>

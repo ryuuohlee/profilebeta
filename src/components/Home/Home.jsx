@@ -1,5 +1,6 @@
 import React, { useState }from 'react';
 import Recommendations from '../Recommendations/Recommendations.jsx';
+import { SkillsHome } from '../Skills/Skills.jsx';
 import './Home.css';
 import { recommendations } from '../../database/recommendations.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -10,12 +11,13 @@ class Home extends React.Component {
     super(props)
 
     this.state={
-      recommendations: recommendations
+      recommendations: recommendations,
+      skills: [["https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/skills/html5-logo.png", "HTML5"], ["https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/skills/css3-logo.png", "CSS3"], ["https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/skills/js-logo.png", "JavaScript(ES6+)"], ["https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/skills/node-js.png", "Node.js"], ["https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/skills/react.png", "React"], ["https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/skills/postgres.png", "PostgreSQL"]],
     }
   }
 
   render() {
-    let {recommendations} = this.state;
+    let {recommendations, skills} = this.state;
 
     return(
         <div className="site-main">
@@ -53,6 +55,16 @@ class Home extends React.Component {
               <Recommendations recommendations={recommendations} />
               <div className="quote">
                 <FontAwesomeIcon icon={faQuoteRight} size="4x" />
+              </div>
+            </div>
+            <div className="personal-skills">
+              <div className="personal-skills-heading">
+                <h2 className="section-title">
+                  Skills:
+                </h2>
+              </div>
+              <div className="skills-section">
+                <SkillsHome skills={skills} />
               </div>
             </div>
         </div>
