@@ -42,6 +42,20 @@
   transform: scale(1.5);
 }
 
+.email-form {
+  display: flex;
+  justify-content: center;
+}
+
+.form-layout {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.form-field {
+  margin-bottom: 1rem;
+}
+
 @media  screen and (max-width: 1080px) {
   .contact-body {
     display: none;

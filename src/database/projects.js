@@ -25,17 +25,6 @@ export const projects = [
   },
   {
     id: num += 1,
-    title: 'Portfolio',
-    description: 'Web application for my online portfolio.',
-    image: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/lee.png',
-    technologies: ['React.js', 'JavaScript', 'HTML', 'CSS', 'Webpack', 'Babel', 'React Router'],
-    deployed: 'Github Pages',
-    job: 'Software Engineer',
-    githublink: 'https://github.com/ryuuohlee/ryuuohlee.github.io',
-    weblink: 'https://jeffreylee.tech'
-  },
-  {
-    id: num += 1,
     title: 'To do',
     description: 'Web application for a to-do task manager.',
     image: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/list-on-window.png',
