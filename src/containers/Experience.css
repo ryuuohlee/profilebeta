@@ -2,6 +2,8 @@
 .experience-body {
   display: flex;
   flex-direction: column;
+  float:right;
+  width: 97%;
 }
 
 .experience-current {
@@ -67,16 +69,17 @@
 }
 
 .work-place-container {
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
   margin: auto;
 }
 
 .work-place-header {
   display: block;
+  float: right;
   font-weight: 900;
   text-align: center;
   padding-top:10px;
   margin: 0;
+  width: 98%;
   background-color: white;
   border: none;
 }
@@ -86,7 +89,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 100%;
+  float: right;
+  width: 98%;
   height: 100%;
   background-color: white;
   border: none;

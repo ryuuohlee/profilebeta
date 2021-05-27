@@ -1,6 +1,7 @@
 .portfolio-body {
   display: flex;
   flex-direction: column;
+  width: 97%;
 }
 
 .project-list {

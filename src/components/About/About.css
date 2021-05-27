@@ -1,6 +1,9 @@
 .about-body {
   display: flex;
   flex-direction: column;
+  justify-content: right;
+  float:right;
+  width: 95%;
 }
 
 .about-content {
