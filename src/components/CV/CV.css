@@ -1,3 +1,7 @@
+.cv-body {
+  height: 87vh
+}
+
 .cv-container {
   height: 85%;
   padding-left: 30px;
@@ -6,4 +10,16 @@
 
 iframe {
   padding: 0px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+@media screen and (max-width: 1080px) {
+  .cv-body {
+    margin-top: 4rem;
+  }
 }

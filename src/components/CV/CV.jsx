@@ -4,9 +4,9 @@ import './CV.css';
 
 const CV = () => {
   return(
-    <div className="site-main">
-        <h2 className="page-title">
-          CV
+    <div className="cv-body">
+        <h2 className="section-title">
+          Curriculum Vitae:
         </h2>
         <Iframe src="https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/Jeffrey+Lee+Software+Engineer+Resume.pdf"
         width="95%"

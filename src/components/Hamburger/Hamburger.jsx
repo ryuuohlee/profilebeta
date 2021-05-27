@@ -28,7 +28,7 @@ const Hamburger = (props) => {
             <li className="site-page-mobile">Education</li>
           </Link>
           <Link to="/cv" style={{ textDecoration: 'none' }} >
-            <li className="site-page-mobile">CV</li>
+            <li className="site-page-mobile">Resumé</li>
           </Link>
         </ul>
         <div className="site-nav-social">
