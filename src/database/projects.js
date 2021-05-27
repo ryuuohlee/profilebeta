@@ -23,6 +23,17 @@ export const projects = [
     githublink: 'https://github.com/ryuuohlee/koh',
     weblink: 'https://koh-the-face-stealer.herokuapp.com/'
   },
+  // {
+  //   id: num += 1,
+  //   title: 'Portfolio',
+  //   description: 'Web application for my online portfolio.',
+  //   image: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/lee.png',
+  //   technologies: ['React.js', 'JavaScript', 'HTML', 'CSS', 'Webpack', 'Babel', 'React Router'],
+  //   deployed: 'Github Pages',
+  //   job: 'Software Engineer',
+  //   githublink: 'https://github.com/ryuuohlee/ryuuohlee.github.io',
+  //   weblink: 'https://jeffreylee.tech'
+  // },
   {
     id: num += 1,
     title: 'To do',
