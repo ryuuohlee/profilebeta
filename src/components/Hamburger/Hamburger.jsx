@@ -31,12 +31,12 @@ const Hamburger = (props) => {
             <li className="site-page-mobile">Resumé</li>
           </Link>
         </ul>
-        <div className="site-nav-social">
-          <div className="block-social">Get in Touch</div>
+        <div className="site-nav-social-mobile">
+          <div className="block-social-mobile">Get in Touch</div>
           <div className="contacts">
-            <a href="mailto:me@jeffreylee.tech" target="_blank"><img src="https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/envelope.png" className="contact-icons"/></a>
-            <a href="https://www.linkedin.com/in/jeffrey-lee-01" target="_blank"><img src="https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/linkedin-sign.png" className="contact-icons"/></a>
-            <a href="https://github.com/ryuuohlee" target="_blank"><img src="https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/github-signw.png" className="contact-icons"/></a>
+            <a href="mailto:me@jeffreylee.tech" target="_blank"><img src="https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/envelope.png" className="contact-icons-mobile"/></a>
+            <a href="https://www.linkedin.com/in/jeffrey-lee-01" target="_blank"><img src="https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/linkedin-sign.png" className="contact-icons-mobile"/></a>
+            <a href="https://github.com/ryuuohlee" target="_blank"><img src="https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/github-signw.png" className="contact-icons-mobile"/></a>
           </div>
         </div>
       </nav>

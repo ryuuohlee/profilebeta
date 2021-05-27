@@ -6,6 +6,7 @@ import Portfolio from './Portfolio.jsx';
 import Experience from '../containers/Experience.jsx';
 import Education from './Education.jsx';
 import CV from '../components/CV/CV.jsx';
+import Contact from '../components/Contact/Contact.jsx'
 import Hamburger from '../components/Hamburger/Hamburger.jsx';
 import css from './App.css';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
@@ -31,6 +32,9 @@ class App extends React.Component {
               <Route path="/cv" component={CV} />
             </Switch>
           </main>
+          <div className="contact">
+            <Contact />
+          </div>
           <footer>
             <p>Created by Jeffrey Lee</p>
             <p>Hosted on Github Pages</p>

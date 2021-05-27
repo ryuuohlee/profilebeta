@@ -15,7 +15,7 @@
 }
 
 .section-title {
-  margin-left: 30px;
+  margin-left: 50px;
   margin-right: 30px;
   margin-top: 30px;
   padding-top: 10px;
@@ -27,6 +27,12 @@
 
 .bm-burger-button {
   display: none;
+}
+
+.contact {
+  position: fixed;
+  bottom: 45%;
+  left: 0px;
 }
 
 footer {
