@@ -46,6 +46,7 @@ footer {
 @media screen and (max-width: 1080px) {
   .section-title {
     font-size: 4rem;
+    margin-left: 10px;
   }
 
   .bm-burger-button {

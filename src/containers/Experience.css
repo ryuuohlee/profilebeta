@@ -107,6 +107,7 @@
     margin-top: 4rem;
     font-size: 2rem;
     font-weight: 600;
+    float: none;
   }
 
   .experience-title-company {
@@ -116,7 +117,7 @@
   .work-place-header {
     width: 100%;
     background-color: white;
-    border: transparent;
+    border: solid 2px white;
   }
 
 
@@ -126,15 +127,15 @@
     justify-content: center;
     vertical-align: middle;
     text-align: center;
-    width: 100%;
+    width: 980px;
     height: 100%;
     background-color: white;
-    border: transparent;
+    border: white;
   }
 
   .work-place-company {
-    position:relative;
-    width: 100%;
+    position: relative;
+    width: 90%;
   }
 
 }
