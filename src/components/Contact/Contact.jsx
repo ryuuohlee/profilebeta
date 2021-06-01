@@ -30,12 +30,13 @@ const Contact = () => {
   function handleSubmit(event) {
     event.preventDefault();
 
-    console.log(name);
+    console.log(message);
     let templateParams = {
       from_name: name,
       to_name: "Jeff",
+      sender_email: email,
       subject: subject,
-      message_html: message
+      message: message
     }
 
     emailjs.send(
@@ -59,6 +60,7 @@ const Contact = () => {
     setEmail('');
     setSubject('')
     setMessage('');
+    setIsOpen(false);
   }
 
   return(
@@ -134,6 +136,7 @@ const Contact = () => {
                                 name='ContactComment'
                                 rows='10'
                                 cols='30'
+                                value={message}
                                 onChange={(event)=>setMessage(event.currentTarget.value)}
                                 placeholder="Enter Message"
                                 required />
