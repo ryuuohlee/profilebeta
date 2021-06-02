@@ -53,6 +53,11 @@ const About = () => {
             )}
         </div>
       </div>
+      <div className="personal-data-algo-skills">
+        <div className="data-algo-cards">
+
+        </div>
+      </div>
     </div>
   )
 }
