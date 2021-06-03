@@ -58,34 +58,32 @@
 }
 
 .site-main-welcome-info-roles {
-  top: -50px;
   height: 40px;
   width: fit-content;
   margin-left: 15px;
   margin-right: 15px;
   overflow: hidden;
+  position: relative;
 }
 
 .site-main-welcome-info-roles::before {
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
   z-index: 1;
   width: 100%;
   content: '';
   height: 10px;
   position: absolute;
-  background: linear-gradient(180deg, #0d1117, rgba(255, 142, 113,0));
 }
 
 .site-main-welcome-info-roles::after {
-  top: 0;
-  left: 0;
+  bottom: 0px;
+  left: 0px;
   z-index: 1;
   width: 100%;
   content: '';
   height: 10px;
   position: absolute;
-  background: linear-gradient(180deg, rgba(255, 142, 113, 0), #0d1117);
 }
 
 .welcome-highlight {
@@ -115,7 +113,7 @@
   color: rgb(56, 161, 126) ;
   margin: 0;
   padding: 0;
-  -webkit-animation: scrollUp 6s ease-in-out infinite normal;
+  -webkit-animation: scrollUp 6s ease-in-out infinite normal !important;
           animation: scrollUp 6s ease-in-out infinite normal;
 }
 
@@ -123,7 +121,8 @@
   font-size: 2.5em;
   font-weight: 300;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-  /* opacity: 1; */
+  opacity: 1;
+  height: 50px;
   list-style: none;
 }
 
