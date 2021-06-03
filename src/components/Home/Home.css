@@ -71,9 +71,10 @@
   left: 0;
   z-index: 1;
   width: 100%;
+  content: '';
   height: 10px;
   position: absolute;
-  background: linear-gradient(180deg, #0d1117, rgba(255, 142, 113, 0));
+  background: linear-gradient(180deg, #0d1117, rgba(255, 142, 113,0));
 }
 
 .site-main-welcome-info-roles::after {
@@ -81,6 +82,7 @@
   left: 0;
   z-index: 1;
   width: 100%;
+  content: '';
   height: 10px;
   position: absolute;
   background: linear-gradient(180deg, rgba(255, 142, 113, 0), #0d1117);
@@ -121,7 +123,7 @@
   font-size: 2.5em;
   font-weight: 300;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-  opacity: 1;
+  /* opacity: 1; */
   list-style: none;
 }
 
