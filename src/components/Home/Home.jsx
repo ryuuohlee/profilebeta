@@ -12,7 +12,7 @@ class Home extends React.Component {
 
     this.state={
       recommendations: recommendations,
-      skills: [["https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/skills/html5-logo.png", "HTML5"], ["https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/skills/css3-logo.png", "CSS3"], ["https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/skills/js-logo.png", "JavaScript(ES6+)"], ["https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/skills/node-js.png", "Node.js"], ["https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/skills/react.png", "React"], ["https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/skills/postgres.png", "PostgreSQL"]],
+      skills: [["https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/skills/html5-logo.png", "HTML5"], ["https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/skills/css3-logo.png", "CSS3"], ["https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/skills/js-logo.png", "JavaScript(ES6+)"], ["https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/skills/node-js.png", "Node.js"], ["https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/skills/react.png", "React"], ["https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/skills/postgres.png", "PostgreSQL"], ['https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/skills/asana-logo.png', 'Asana'], ['https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/skills/atlassian_jira_logo_icon_170511.png', 'Jira'], ['https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/skills/confluence-seeklogo.com.svg', 'Confluence']],
     }
   }
 

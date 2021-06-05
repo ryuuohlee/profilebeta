@@ -1,13 +1,15 @@
 .personal-recommendations {
   display: flex;
+  justify-content: center;
   float: right;
   height: 10rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  padding-left: 10%;
-  padding-right: 20%;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-right: 5%;
   margin-bottom: 20px;
-  width: 65%;
+  width: 60%;
   background: lightgray;
   color: black;
 }
