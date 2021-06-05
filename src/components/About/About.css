@@ -105,7 +105,7 @@
   font-weight: 300;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
   opacity: 1;
-  height: 50px;
+  height: 40px;
   list-style: none;
 }
 
@@ -140,7 +140,7 @@
 
 .technologies-list {
   display: inline-grid;
-  grid-template-columns: 20% 20%;
+  grid-template-columns: 20% 20% 20%;
   justify-content: left;
 }
 

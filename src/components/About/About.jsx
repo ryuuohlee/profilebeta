@@ -4,7 +4,7 @@ import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import './About.css';
 
 const About = () => {
-  let technologies = ["JavaScript(ES6+)", "React", "Vue", "Node.js", "Express", "PostgreSQL"];
+  let technologies = ["JavaScript(ES6+)", "React", "Vue", "Node.js", "Express", "PostgreSQL", 'Asana', 'Jira', 'Confluence'];
 
   return(
     <div className="about-body">
