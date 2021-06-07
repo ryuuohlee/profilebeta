@@ -1,50 +1,28 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
-class DataAlgoList extends React.Component {
-  constructor(props) {
-    super(props)
+const codeforcesJson = fetch('https://codeforces.com/api/user.info?handles=ryuuoh')
+.then(response => response.json)
+.then(user => {
+  return user;
+})
 
-    this.state = {
-      codeforces: [],
-      codewars: [],
-    }
-  }
+const DataAlgoList = () => {
+  const [codeforces, setCodeforces] = useState([]);
 
-  componentDidMount() {
-    const codeforcesResponse = fetch('https://codeforces.com/api/user.info?handles=ryuuoh')
-    .then((response) => response.json())
-    .then(user => user.result);
-    // ([
-    //   ,
-    //   fetch('https://www.codewars.com/api/v1/users/ryuuohlee')
-    // ])
-    // .then(([codeforcesResponse, codewarsResponse]) => {
-    //   return [
-    //     codeforcesResponse.json(),
-    //     codewarsResponse.json()
-    //   ]
-    // })
-    // .catch((err) => {
-    //   console.log(err);
-    // })
-
-    this.setState({ codeforces: codeforcesResponse.then(a => {
-      return a;
+  useEffect(() => {
+    fetch('https://codeforces.com/api/user.info?handles=ryuuoh')
+    .then(response => response.json())
+    .then(result => {
+      setCodeforces(result.result);
     })
+    console.log(codeforces)
   })
 
-  console.log(this.state)
-
-  }
-
-
-  render() {
-    return (
-      <div>
-        Hello
-      </div>
-    )
-  }
+  return (
+    <div>
+      Hello
+    </div>
+  )
 };
 
 export default DataAlgoList;
