@@ -1,4 +1,5 @@
 import React from 'react';
+import DataAlgoList from '../DataAlgo/DataAlgoList.jsx';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import './About.css';
@@ -55,7 +56,7 @@ const About = () => {
       </div>
       <div className="personal-data-algo-skills">
         <div className="data-algo-cards">
-
+          <DataAlgoList />
         </div>
       </div>
     </div>
