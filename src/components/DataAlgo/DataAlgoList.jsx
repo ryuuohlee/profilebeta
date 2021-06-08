@@ -15,8 +15,7 @@ const DataAlgoList = () => {
     .then(result => {
       setCodeforces(result.result);
     })
-    console.log(codeforces)
-  })
+  }, [])
 
   return (
     <div>
