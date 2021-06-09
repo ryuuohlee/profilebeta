@@ -1,0 +1,27 @@
+.contests {
+  display: flex;
+  justify-content: center;
+  float: right;
+  height: 10rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-right: 5%;
+  margin-bottom: 20px;
+  width: 60%;
+  background: lightgray;
+  color: black;
+}
+
+.contest-card {
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.contest-logo {
+  width: 50%;
+  height: auto;
+}
