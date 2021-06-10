@@ -9,11 +9,18 @@ const DataAlgoCard = (props) => {
   if(!!codeforces) {
     return (
       <div className="contest-card">
-        <img src={logos[0]} className="contest-logo" alt="" />
+        <a href="https://codeforces.com/profile/Ryuuoh">
+          <img src={logos[0]} className="contest-logo" alt="" />
+        </a>
         <div>
-          <span>Rank:</span> {codeforces.rank}
+          <span className="contest-category">Rank:</span> {codeforces.rank}
         </div>
-        <p>Rating: </p> {codeforces.rating}
+        <div>
+          <span className="contest-category">Rating:</span> {codeforces.rating}
+        </div>
+        <div>
+          <span className="contest-category">Language:</span> C++
+        </div>
       </div>
     )
   }
@@ -21,11 +28,18 @@ const DataAlgoCard = (props) => {
   if(codewars.length !== 0) {
     return (
       <div className="contest-card">
-        <img src={logos[1]} className="contest-logo" alt="" />
+        <a href="https://www.codewars.com/users/ryuuohlee">
+          <img src={logos[1]} className="contest-logo" alt="" />
+        </a>
         <div>
-          <span>Rank:</span> {codewars.ranks.languages.javascript.name}
+          <span className="contest-category">Rank:</span> {codewars.ranks.languages.javascript.name}
         </div>
-        <p>Rating: </p> {codewars.honor}
+        <div>
+          <span className="contest-category">Rating:</span> {codewars.honor}
+        </div>
+        <div>
+          <span className="contest-category">Language:</span> JavaScript
+        </div>
       </div>
     )
   }

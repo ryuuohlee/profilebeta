@@ -11,6 +11,8 @@ const codeforcesJson = fetch('https://codeforces.com/api/user.info?handles=ryuuo
 const DataAlgoList = () => {
   const [codeforces, setCodeforces] = useState([]);
   const [codewars, setCodewars] = useState([]);
+  const [leetcode, setLeetcode] = useState([]);
+  const [atcoder, setAtcoder] = useState([]);
 
   useEffect(() => {
     Promise.all([
