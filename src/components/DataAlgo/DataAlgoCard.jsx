@@ -9,7 +9,7 @@ const DataAlgoCard = (props) => {
   if(!!codeforces) {
     return (
       <div className="contest-card">
-        <a href="https://codeforces.com/profile/Ryuuoh">
+        <a href="https://codeforces.com/profile/Ryuuoh" target="_blank">
           <img src={logos[0]} className="contest-logo" alt="" />
         </a>
         <div>
@@ -28,7 +28,7 @@ const DataAlgoCard = (props) => {
   if(codewars.length !== 0) {
     return (
       <div className="contest-card">
-        <a href="https://www.codewars.com/users/ryuuohlee">
+        <a href="https://www.codewars.com/users/ryuuohlee" target="_blank">
           <img src={logos[1]} className="contest-logo" alt="" />
         </a>
         <div>
