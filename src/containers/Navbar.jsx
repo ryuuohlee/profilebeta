@@ -43,6 +43,9 @@ const Navbar = () => {
             <Link to="/education" style={{ textDecoration: 'none' }}>
               <li className="site-page">Education</li>
             </Link>
+            <Link to="/blog" style={{ textDecoration: 'none' }}>
+              <li className="site-page">Blog</li>
+            </Link>
               <li className="resume"
               onClick={openModal}
               >

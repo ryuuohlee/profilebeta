@@ -5,6 +5,7 @@ import About from '../components/About/About.jsx';
 import Portfolio from './Portfolio.jsx';
 import Experience from '../containers/Experience.jsx';
 import Education from './Education.jsx';
+import Blog from '../components/Blog/Blog.jsx';
 import CV from '../components/CV/CV.jsx';
 import Contact from '../components/Contact/Contact.jsx'
 import Hamburger from '../components/Hamburger/Hamburger.jsx';
@@ -29,6 +30,7 @@ class App extends React.Component {
               <Route path="/portfolio" component={Portfolio} />
               <Route path="/experience" component={Experience} />
               <Route path="/education" component={Education} />
+              <Route path="/blog" component={Blog} />
               <Route path="/cv" component={CV} />
             </Switch>
           </main>
