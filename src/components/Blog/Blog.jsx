@@ -9,8 +9,10 @@ const Blog = () => {
   return(
     <div className="blog-body">
       <div className="title">
-        <h2 className="section-title">
-          JeffreyRig
+        <h2 className="section-title" target="_blank" >
+          <a href="https://jeffreyrig.com">
+            JeffreyRig
+          </a>
         </h2>
       </div>
       <div className="about-content">
