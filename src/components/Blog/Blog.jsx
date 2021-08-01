@@ -19,7 +19,7 @@ const Blog = () => {
         </div>
         <div className="about-story">
           <p>
-            jeffreyrig.com is my blog where you can follow my journey as an engineer. I will go in-depth into the projects. These projects will be discussing engineering topics and technologies that I find facinating.
+            jeffreyrig.com is my blog where you can follow my journey as an engineer. I will go in-depth into the projects and other technology related topics. These projects will be discussing engineering topics and technologies that I find facinating.
           </p>
         </div>
       </div>
