@@ -23,20 +23,6 @@ const Blog = () => {
           </p>
         </div>
       </div>
-      <div className="title">
-        <h2 className="section-title">
-          Personal Blog:
-        </h2>
-      </div>
-      <div className="about-content">
-        <div className="blog-image">
-        </div>
-        <div className="about-story">
-          <p>
-            Hello! My name is Jeffrey and I enjoy building things that make a difference. My interest in engineering started in the Montgomery Wards Autoshop, watching my dad work on cars. Then, my passion for computers came from my aunt who was the Technologies Director at HUD. I built my first PC at the age of 11 and then took Web Design in 2004 starting high-school career and the rest is history.
-          </p>
-        </div>
-      </div>
     </div>
   )
 }
