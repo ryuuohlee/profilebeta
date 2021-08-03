@@ -10,7 +10,7 @@ const Blog = () => {
     <div className="blog-body">
       <div className="title">
         <h2 className="section-title" target="_blank" >
-            JeffreyRig
+            JeffreyRig!
         </h2>
       </div>
       <div className="about-content">
