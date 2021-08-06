@@ -33,14 +33,14 @@ const About = () => {
             Hello! My name is Jeffrey and I enjoy building things that make a difference. My interest in engineering started in the Montgomery Wards Autoshop, watching my dad work on cars. Then, my passion for computers came from my aunt who was the Technologies Director at HUD. I built my first PC at the age of 11 and then took Web Design in 2004 starting high-school career and the rest is history.
           </p>
           <p>
-            Fast-forward to the present, I had the privilege of being about to attend the <span className="highlight">Hack Reactor</span> Full-Stack JavaScript boot camp in 2019 studying <span className="highlight">full-stack web development</span>, <span className="highlight">JavaScript</span>, <span className="highlight">React</span>, <span className="highlight">Node.js</span> and I have built several personal applications since then. I have also completed the <span className="highlight">UC Berkeley Extension</span> Technology Project Management boot camp to gain a deeper understanding of SDLC Life Cycle methodologies and I have obtained my <span className="highlight">PSM</span> and <span className="highlight">PSPO</span>.
+            Fast-forward to the present, I had the privilege of being able to attend the <span className="highlight">Hack Reactor</span> Full-Stack JavaScript boot camp in 2019 studying <span className="highlight">full-stack web development</span>, <span className="highlight">JavaScript</span>, <span className="highlight">React</span>, and <span className="highlight">Node.js</span>. Since then, I have built several personal applications. I have also completed the <span className="highlight">UC Berkeley Extension</span> Technology Project Management boot camp to gain a deeper understanding of SDLC Life Cycle methodologies and I have obtained my <span className="highlight">PSM</span> and <span className="highlight">PSPO</span>.
           </p>
         </div>
       </div>
       <div className="personal-technologies">
         <div>
           <p>
-            Here are a few technologies I have been workigng with recently:
+            Here are a few technologies I have been working with recently:
           </p>
         </div>
         <div className="technologies-list">
