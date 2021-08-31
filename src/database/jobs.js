@@ -4,8 +4,18 @@ export const jobs = [
   {
     id: num += 1,
     company: 'Accenture',
+    title: 'Assistant Operations Manager',
+    duration: '08/2021 - Present',
+    location: 'USA',
+    companyImg: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/accenture.png',
+    description: 'Manage teams involving detection of abusive application developers along with daily operations for client platforms.',
+    achievements: ['Manage a scaled abuse analytics team using SQL to detect harmful developer networks.', 'Manage a security team that uses SQL to detect abusive developers that steal personal data.', 'Ensure daily operations are running as structured and implementing better business practices where needed.']
+  },
+  {
+    id: num += 1,
+    company: 'Accenture',
     title: 'Global Quality Manager',
-    duration: '05/2019 - Present',
+    duration: '05/2019 - 08/2021',
     location: 'USA',
     companyImg: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/accenture.png',
     description: 'Manage quality assurance teams for client projects across the globe managing 90 agents and six team leads.',
