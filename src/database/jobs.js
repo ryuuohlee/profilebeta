@@ -3,23 +3,13 @@ let num = 0;
 export const jobs = [
   {
     id: num += 1,
-    company: 'Codazen',
+    company: 'Codazen @ Meta',
     title: 'Web Developer',
     duration: '03/2022 - Present',
     location: 'USA',
     companyImg: 'https://jeffreyleeportfolio.s3.us-west-1.amazonaws.com/Codazen+logo.png',
-    description: 'Manage teams involving detection of abusive application developers along with daily operations for client platforms.',
-    achievements: ['Manage a scaled abuse analytics team using SQL to detect harmful developer networks.', 'Manage a security team that uses SQL to detect abusive developers that steal personal data.', 'Ensure daily operations are running as structured and implementing better business practices where needed.']
-  },
-  {
-    id: num += 1,
-    company: 'Accenture',
-    title: 'Assistant Operations Manager',
-    duration: '08/2021 - 09/2022',
-    location: 'USA',
-    companyImg: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/accenture.png',
-    description: 'Manage teams involving detection of abusive application developers along with daily operations for client platforms.',
-    achievements: ['Manage a scaled abuse analytics team using SQL to detect harmful developer networks.', 'Manage a security team that uses SQL to detect abusive developers that steal personal data.', 'Ensure daily operations are running as structured and implementing better business practices where needed.']
+    description: 'Implement responsive HTML/CSS layouts and interactivity using JavaScript.',
+    achievements: ['Curated over 100 website changes for rebranding of client products.', 'Join Rapid Response team to quickly fix issues on production products to ensure customer support.', 'Successfully launched holiday special website advertising.']
   },
   {
     id: num += 1,
@@ -27,6 +17,16 @@ export const jobs = [
     title: 'Software Development Instructor',
     duration: '10/2021 - Present',
     location: 'Remote USA',
+    companyImg: 'https://jeffreyleeportfolio.s3.us-west-1.amazonaws.com/nucamp+logo.png',
+    description: 'Instruct four to five-week web development courses with 10 to 15 students per cohort.',
+    achievements: ['Instruct students on front-end development concepts using JavaScript, React-Redux, and Bootstrap.', 'Introduce students to the fundamentals of Web Development with HTML, CSS, and JavaScript.x', 'Teach students about the intricacies of backend-development using Node.js, Express, and MongoDB.']
+  },
+  {
+    id: num += 1,
+    company: 'Accenture',
+    title: 'Assistant Operations Manager',
+    duration: '08/2021 - 09/2022',
+    location: 'USA',
     companyImg: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/accenture.png',
     description: 'Manage teams involving detection of abusive application developers along with daily operations for client platforms.',
     achievements: ['Manage a scaled abuse analytics team using SQL to detect harmful developer networks.', 'Manage a security team that uses SQL to detect abusive developers that steal personal data.', 'Ensure daily operations are running as structured and implementing better business practices where needed.']
