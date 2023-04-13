@@ -1,5 +1,4 @@
 import React, { Component, useState } from 'react';
-import CV from '../components/CV/CV.jsx';
 import { Link } from 'react-router-dom';
 import Modal from 'react-modal';
 import Iframe from 'react-iframe';
@@ -66,7 +65,7 @@ const Navbar = () => {
                     Curriculum Vitae:
                   </h2>
                   <button className="close-modal" onClick={closeModal}>X</button>
-                  <Iframe src="https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/Jeffrey+Lee+Software+Engineer+Resume.pdf"
+                  <Iframe src="https://jeffreyleeportfolio.s3.us-west-1.amazonaws.com/Jeffrey+Lee+Front-end+SWE+Resume.pdf"
                   width="95%"
                   className="cv-container" />
               </div>
