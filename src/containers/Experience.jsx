@@ -1,5 +1,4 @@
 import React from 'react';
-import ExpCard from '../components/Experience/ExpCard.jsx';
 import WorkList from '../components/Experience/WorkList.jsx';
 import ExpList from '../components/Experience/ExpList.jsx';
 import Achievements from '../components/Education/Achievements/Achievements.jsx';

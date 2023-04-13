@@ -3,11 +3,15 @@ const HtmlWebpackPlugin = require('html-webpack-plugin'); //brings in the plugin
 
 module.exports = {
   entry: './src/index.jsx',
-  target: 'node',
+  target: 'web',
+  experiments: {
+    outputModule: true,
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/',
-    filename: 'portfolio_bundle.js'
+    filename: 'portfolio_bundle.js',
+    module: true,
   },
   module: {
     rules: [

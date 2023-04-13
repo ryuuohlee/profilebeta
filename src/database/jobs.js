@@ -3,10 +3,30 @@ let num = 0;
 export const jobs = [
   {
     id: num += 1,
+    company: 'Codazen',
+    title: 'Web Developer',
+    duration: '03/2022 - Present',
+    location: 'USA',
+    companyImg: 'https://jeffreyleeportfolio.s3.us-west-1.amazonaws.com/Codazen+logo.png',
+    description: 'Manage teams involving detection of abusive application developers along with daily operations for client platforms.',
+    achievements: ['Manage a scaled abuse analytics team using SQL to detect harmful developer networks.', 'Manage a security team that uses SQL to detect abusive developers that steal personal data.', 'Ensure daily operations are running as structured and implementing better business practices where needed.']
+  },
+  {
+    id: num += 1,
     company: 'Accenture',
     title: 'Assistant Operations Manager',
-    duration: '08/2021 - Present',
+    duration: '08/2021 - 09/2022',
     location: 'USA',
+    companyImg: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/accenture.png',
+    description: 'Manage teams involving detection of abusive application developers along with daily operations for client platforms.',
+    achievements: ['Manage a scaled abuse analytics team using SQL to detect harmful developer networks.', 'Manage a security team that uses SQL to detect abusive developers that steal personal data.', 'Ensure daily operations are running as structured and implementing better business practices where needed.']
+  },
+  {
+    id: num += 1,
+    company: 'Nucamp Coding Bootcamp',
+    title: 'Software Development Instructor',
+    duration: '10/2021 - Present',
+    location: 'Remote USA',
     companyImg: 'https://jeffreyleeportfolio.s3-us-west-1.amazonaws.com/accenture.png',
     description: 'Manage teams involving detection of abusive application developers along with daily operations for client platforms.',
     achievements: ['Manage a scaled abuse analytics team using SQL to detect harmful developer networks.', 'Manage a security team that uses SQL to detect abusive developers that steal personal data.', 'Ensure daily operations are running as structured and implementing better business practices where needed.']
